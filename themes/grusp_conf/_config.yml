@@ -1,7 +1,7 @@
 basedir: /
 
 # html lang
-language: "en"
+language: "it"
 
 # main menu navigation
 menu:
@@ -21,11 +21,11 @@ workshop_submenu:
 # welcome submenu
 welcome_submenu:
   about: about
-  coc: code of conduct
-  scholarships: scholarships
-  where: where
+  coc: codice di condotta
+  scholarships: scholarship
+  where: dove e come
   # delete this row to take out of the menu
-  cfp: call for papers
+  cfp: call for paper
 
 # stylesheets loaded in the <head>
 stylesheets:

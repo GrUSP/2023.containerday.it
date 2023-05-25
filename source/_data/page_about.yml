@@ -12,42 +12,52 @@ intro:
 more:
   title: "containerday"
   content_1: 
-    "I CSS sono uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del nuovo rinascimento del web.<br> 
-     Nato come track del jsday e dallo stesso team organizzativo di Kerning, il containerday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere."
+    "<p>containerday è la principale conferenza italiana dedicata esclusivamente alle tecnologie di containerizzazione e virtualizzazione ed alle buone pratiche ad esse associate.</p>
+    <p>Docker, Kubernetes e le tecnologie di virtualizzazione stanno cambiando radicalmente il mondo delle infrastrutture IT. Alla conferenza saranno presentate le best practices, le tecnologie innovative e gli strumenti più maturi per poter gestire e far evolvere una infrastruttura IT moderna.</p>
+    <p>containerday 2023 si svolge a Bologna e online, <b>Venerdì 12 Ottobre 2023</b>.</p>"
   content_2:
 past_edition:
   title: "Guarda le passate edizioni della conferenza"
-  video_url: "https://www.youtube.com/embed/videoseries?list=PLWK9j6ps_unnzawdRcS0h5O6if5f8mtCc"
+  video_url: "https://www.youtube.com/embed/videoseries?list=PLWK9j6ps_unmk6E2XFEv-tMfnFh4fJhEr"
   video_caption: "Guarda i video dell'ultima edizione"
 team:
   title: "Il team"
   intro: ""
   members:
     member_1:
-      name: "Francesco Fullone"
-      role: "troublemaker"
-      pic_filename: "fullo.jpg"
-    member_2:
-      name: "Giulia Tosato"
-      role: "boss in charge"
-      pic_filename: "giulia.jpg"
-    member_3:
-      name: "Michela Bertaina"
-      role: "Community Manager"
-      pic_filename: "michela.jpg"
-    member_4:
-      name: "Giovanna Ferrari"
-      role: "sponsor management"
-      pic_filename: "giovanna.jpg"
-    member_5:
       name: "Matteo Beccati"
       role: "GrUSP Board Member"
-      pic_filename: "matteo.jpg"
-    member_6:
+      pic_filename: "matteo_yellow.jpg"
+    member_2:
       name: "Cesare D'Amico"
       role: "GrUSP Board Member"
-      pic_filename: "cesare.jpg"
+      pic_filename: "cesare_yellow.jpg"
+    member_3:
+      name: "Giovanna Ferrari"
+      role: "Sponsor Management"
+      pic_filename: "giovanna_yellow.jpg"
+    member_4:
+      name: "Giorgio Fochesato"
+      role: "Community Manager"
+      pic_filename: "giorgio_yellow.jpg"
+    member_5:
+      name: "Francesco Fullone"
+      role: "Troublemaker"
+      pic_filename: "fullo_yellow.jpg"
+    member_6:
+      name: "Lara Lombardi"
+      role: "Marketing Manager"
+      pic_filename: "lara_yellow.jpg"
     member_7:
       name: "Daniel Londero"
       role: "GrUSP Board Member"
-      pic_filename: "daniel.jpg"
+      pic_filename: "daniel_yellow.jpg"
+    member_8:
+      name: "Francesco Mancin"
+      role: "Regia e Video"
+      pic_filename: "francesco_yellow.jpg"
+    member_9:
+      name: "Giulia Tosato"
+      role: "Event Manager"
+      pic_filename: "giulia_yellow.jpg"
+    

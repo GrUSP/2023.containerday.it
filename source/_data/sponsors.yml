@@ -14,26 +14,31 @@ sponsors_block_title: ""
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
+main:
+  sponsor1:
+    name: "Sighup"
+    logo_filename: "sighup.svg"
+    site_url: "https://sighup.io/"
 gold:
   sponsor1:
-    name: "workwave"
-    logo_filename: "workwave.svg"
-    site_url: "https://www.workwave.com/"
-silver:
-  sponsor0:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor4:
+  sponsor2:
+    name: "Sparkfabrik"
+    logo_filename: "sparkfabrik.png"
+    site_url: "https://www.sparkfabrik.com/it/"
+silver:
+  sponsor1:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
-  sponsor6:
-    name: "SiteGround"
-    logo_filename: "siteground.png"
-    site_url: "https://www.siteground.com/"
-bronze:
   sponsor2:
+    name: "Workwave"
+    logo_filename: "workwave.svg"
+    site_url: "https://www.workwave.com/"
+bronze:
+  sponsor1:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p2gc"
