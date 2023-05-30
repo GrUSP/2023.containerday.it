@@ -51,7 +51,7 @@ conference:
   cfp_readmore_label: "Continua a leggere"
   cfp_open_label: "Proponi un talk entro il"
   cfp_open_title: "Call For Paper aperta!"
-  cfp_deadline: 2023-06-25T23:59+01:00
+  cfp_deadline: 2023-06-25T23:59+02:00
   cfp_register_label: "Invia la tua proposta"
   cfp_register_aria_label: "Inviaci ora la tua proposta"
   # "general information" ("what is it?") component
