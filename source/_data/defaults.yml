@@ -39,13 +39,13 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
   # "update" component. set the first parameter to true to make it appear in home page, false means hidden
-  update_visible: false
+  update_visible: true
   update_is_warning: false
-  update_warning_header: "Questo testo appare se l'update è impostato a *warning*. Potremmo sostituirlo con un'icona o altro 'segnale'"
-  update_title: "Important information"
-  update_description: "This is the description of such important information"
-  update_link_url: "https://google.com/"
-  update_link_label: "link to google, just for the demo"
+  update_warning_header: ""
+  update_title: "Il giorno dopo containerday c'è devsecopsday!"
+  update_description: "DevOps e Sicurezza: la nuova conferenza GrUSP dedicata a DevSecOps"
+  update_link_url: "https://2023.devsecopsday.it/"
+  update_link_label: "Scopri di più su devsecopsday"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
   cfp_open: true
   cfp_readmore_label: "Continua a leggere"
@@ -57,7 +57,7 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "<p>containerday è la principale conferenza italiana dedicata esclusivamente alle tecnologie di containerizzazione e virtualizzazione ed alle buone pratiche ad esse associate.</p><p>Docker, Kubernetes e le tecnologie di virtualizzazione stanno cambiando radicalmente il mondo delle infrastrutture IT. Alla conferenza saranno presentate le best practices, le tecnologie innovative e gli strumenti più maturi per poter gestire e far evolvere una infrastruttura IT moderna.</p><p><b>containerday 2023 si svolge a Bologna e online, Venerdì 12 Ottobre 2023.</b></p>"
+  geninfo_description: "<p>containerday è la principale conferenza italiana dedicata esclusivamente alle tecnologie di containerizzazione e virtualizzazione ed alle buone pratiche ad esse associate.</p><p>Docker, Kubernetes e le tecnologie di virtualizzazione stanno cambiando radicalmente il mondo delle infrastrutture IT. Alla conferenza saranno presentate le best practices, le tecnologie innovative e gli strumenti più maturi per poter gestire e far evolvere una infrastruttura IT moderna.</p><p><b>containerday 2023 si svolge a Bologna e online, Giovedì 12 Ottobre 2023.</b></p>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
