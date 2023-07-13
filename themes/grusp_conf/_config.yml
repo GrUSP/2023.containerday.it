@@ -6,7 +6,7 @@ language: "it"
 # main menu navigation
 menu:
   welcome: welcome
-  # talks_speakers: talks
+  talks_speakers: speaker e talk
   sponsor: sponsor
   # scommentare per generare pagina
   # schedule: schedule

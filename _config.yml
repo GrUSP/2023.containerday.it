@@ -15,7 +15,7 @@ edition: 2023
 title: "containerday 2023"
 description: "containerday 2023"
 #   separate keywords by comma, no spaces
-keywords: conference,software conference,css,ux,design,webdev,tech conference
+keywords: conference,software conference,devops,container,tech conference
 author: GrUSP
 language: it
 timezone: 'Europe/Rome'

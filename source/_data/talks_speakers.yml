@@ -1,32 +1,164 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
-schedule_under_construction_description: "We are still defining the schedule. Please be patient"
+schedule_under_construction_description: "La scaletta della conferenza sarà pubblicata presto!"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
+speaker_1: &paolocarta
+  speaker_in_speaker_lists: true
+  speaker_name: Paolo Carta
+  speaker_pic_filename: paolo-carta.png
+  speaker_role: Software and DevOps Engineer
+  speaker_bio: Paolo è un ingegnere delle telecomunicazioni, ha studiato e lavorato
+    in UK e in Svizzera tedesca per svariati anni per poi tornare in Italia
+    lavorando per Red Hat come consulente su sviluppo Cloud Native e
+    DevOps.  Dopo questa ultima importante esperienza in Red Hat ha intrapreso
+    la carriera da freelance ad inizio 2021 lanciando il suo primo corso online
+    su Kubernetes, offrendo servizi di consulenza e training da remoto.   Nel
+    2022 ha pubblicato il suo primo Ebook dedicato agli sviluppatori su
+    Kubernetes viaggiando in giro per il mondo. Al momento è focalizzato
+    principalmente su sistemi di CI/CD per Kubernetes e tool GitOps come ArgoCD.
+  speaker_twitter_url: https://twitter.com/cl4mer
   speaker_github_url: ""
+  speaker_linkedin_url: https://github.com/paolocarta
+speaker_2: &edoardodusi
+  speaker_in_speaker_lists: true
+  speaker_name: Edoardo Dusi
+  speaker_pic_filename: edoardo-dusi.png
+  speaker_role: Developer Relations Engineer @ SparkFabrik
+  speaker_bio: Edoardo è Developer Relations Engineer presso SparkFabrik, una tech
+    company che aiuta i propri clienti a costruire prodotti digitali con
+    tecnologie open source. Ha una solida esperienza come sviluppatore software
+    e team leader, avendo lavorato su vari progetti e piattaforme. È
+    appassionato di creazione e condivisione di  contenuti che ispirano gli
+    altri sviluppatori, come tech talk, video, podcast, conferenze e altro. Ama
+    connettersi con la comunità degli sviluppatori e promuovere i benefici del
+    software open source.
+  speaker_twitter_url: https://twitter.com/edodusi
+  speaker_github_url: https://github.com/edodusi
+  speaker_linkedin_url: https://www.linkedin.com/in/edoardodusi/
+speaker_3: &michelefinelli
+  speaker_in_speaker_lists: true
+  speaker_name: Michele Finelli
+  speaker_pic_filename: michele-finelli.png
+  speaker_role: BioDec VP
+  speaker_bio: Server shepherd and dungeon master
+  speaker_twitter: ""
+  speaker_github: ""
+  speaker_linkedin: ""
+speaker_4: &martinofornasa
+  speaker_in_speaker_lists: true
+  speaker_name: Martino Fornasa
+  speaker_pic_filename: martino-fornasa.png
+  speaker_role: Independent Consultant and Trainer | Cloud Native | DevOps
+  speaker_bio: Sono un consulente indipendente e formatore. Accompagno le
+    aziende nella progettazione e implementazione di una efficace strategia di
+    adozione cloud e DevOps. Curo la trasformazione da una infrastruttura di
+    tipo tradizionale ad una infrastruttura cloud, tramite l’uso dei container e
+    l’approccio serverless. Mi occupo di implementazioni DevOps e cloud-native
+    con particolare attenzione alla scalabilità, affidabilità, prestazioni e
+    osservabilità
+  speaker_twitter_url: https://twitter.com/mfornasa
+  speaker_github_url: https://github.com/mfornasa
+  speaker_linkedin_url: https://www.linkedin.com/in/fornasa/
+speaker_5: &antonioliccardi
+  speaker_in_speaker_lists: true
+  speaker_name: Antonio Liccardi
+  speaker_pic_filename: antonio-liccardi.png
+  speaker_role: CTO @ Blexin
+  speaker_bio: Antonio Liccardi è uno speaker, autore di libri e trainer che
+    lavora come Chief Technology Officer presso Blexin. Grazie alla sua passione
+    per la condivisione, ha fondato insieme ad altri amici “DotNetCampania”, una
+    community locale tramite cui organizza eventi e conferenze. Antonio è spesso
+    invitato come speaker a conferenze italiane e internazionali, ed è stato
+    premiato da Microsoft come MVP per la categoria Visual Studio Developer
+    Technologies dal 2015. A partire dal 2022, è host dello show “DevOps Time”
+    by UgiDotNET, in cui affronta tematiche legate alla cultura DevOps.
+  speaker_twitter_url: https://twitter.com/turibbio
+  speaker_github_url: https://github.com/turibbio
+  speaker_linkedin_url: https://www.linkedin.com/in/antonio-liccardi
+speaker_7: &jacoponardiello
+  speaker_in_speaker_lists: true
+  speaker_name: Jacopo Nardiello
+  speaker_pic_filename: jacopo-nardiello.png
+  speaker_role: Founder @ SIGHUP | CNCF Ambassador | LF Europe Advisory Board
+  speaker_bio: "Jacopo Nardiello è un DevOps Engineer appassionato di
+    automazione delle infrastrutture, orchestrazione e sistemi distribuiti.
+    Focalizzato sull’architettura e l’ingegneria di sistemi distribuiti basati
+    su Containers e Kubernetes, nel 2016 ha fondato SIGHUP. Jacopo è anche CNCF
+    Ambassador, Core Organizer della community milanese Kubernetes e
+    Cloud-Native Milano e membro dell'Advisory Board della Linux Foundation
+    Europe.  "
+  speaker_twitter_url: https://twitter.com/jnardiello
+  speaker_github_url: https://github.com/jnardiello
+  speaker_linkedin_url: https://www.linkedin.com/in/jnardiello/
+speaker_8: &gregoriopalama
+  speaker_in_speaker_lists: true
+  speaker_name: Gregorio Palamà
+  speaker_pic_filename: gregorio-palama.png
+  speaker_role: CTO @ Aesys | Community Manager @ GDG Pescara
+  speaker_bio: Lavoro nell'industria IT da oltre 10 anni e ho esperienze in
+    diversi settori. Attualmente, ricopro il ruolo di Chief Technology Officer
+    in Aesys srl. Sono costantemente alla ricerca di cose nuove da studiare e
+    apprendere e non riesco a stare neanche un giorno senza aggiornarmi. Sono
+    co-organizzatore del GDG Pescara assieme ad altri sviluppatori, amo
+    condividere le mie conoscenze e cercare di farlo in maniera divertente.
+  speaker_twitter_url: https://twitter.com/gregoriopalama
+  speaker_github_url: ""
+  speaker_linkedin_url: https://www.linkedin.com/in/gregorio-palam%C3%A0/
+speaker_9: &gabrielesantomaggio
+  speaker_in_speaker_lists: true
+  speaker_name: Gabriele Santomaggio
+  speaker_pic_filename: gabriele-santomaggio.png
+  speaker_role: Senior Member of Technical Staff @ VMare
+  speaker_bio: "RabbitMQ team in VMware. Appassionato di sistemi
+    distribuiti ed applicazioni ad alte performance. 99,9% open-source. "
+  speaker_twitter_url: https://twitter.com/gsantomaggio
+  speaker_github_url: https://github.com/gsantomaggio
+  speaker_linkedin_url: https://www.linkedin.com/in/santomaggio
+speaker_10: &marcovarlese
+  speaker_in_speaker_lists: true
+  speaker_name: Marco Varlese
+  speaker_pic_filename: marco-varlese.png
+  speaker_role: Director of Engineering @ SUSE
+  speaker_bio: Sono Director of Engineering in SUSE dove guido il dipartimento
+    che gestisce, sviluppa e supporta i principali prodotti sviluppati da SUSE
+    per ambito enterprise, come SLES, SLED, SLE Micro, SLE per Automotive ed,
+    ora, ALP. Prima di diventare Director sono stato Distinguished Engineer in
+    SUSE prima e SW Architect in Intel.
   speaker_twitter_url: ""
-  is_mc: false
+  speaker_github_url: ""
+  speaker_linkedin_url: ""
+speaker_6: &serenalorenzini
+  speaker_in_speaker_lists: true
+  speaker_name: "Serena Lorenzini"
+  speaker_pic_filename: serena-lorenzini.png
+  speaker_role: "MASTER OF CEREMONY - Linux SysAdmin @ BioDec"
+  speaker_bio: PhD in biologia e diversi anni di esperienza nel mondo Linux.
+    Appassionata di automazione delle infrastrutture. Mi occupo di gestione di
+    ambienti per l' esecuzione di applicazioni scientifiche nei cluster HPC, in
+    particolare per la ricerca genomica.
+  speaker_twitter_url: ""
+  speaker_github_url: ""
+  speaker_linkedin_url: ""
+  is_mc: true
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *paolocarta
+  speaker_2: *edoardodusi
+  speaker_3: *michelefinelli
+  speaker_4: *martinofornasa
+  speaker_5: *antonioliccardi
+  speaker_6: *jacoponardiello
+  speaker_7: *gregoriopalama
+  speaker_8: *gabrielesantomaggio
+  speaker_9: *marcovarlese
+  speaker_10: *serenalorenzini
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -60,23 +192,170 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
+      risolvere-il-drift-di-configurazione-utilizzando-i-principi-gitops-e-argocd-1:
+        item_type: talk
         track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        talk_title: Risolvere il drift di configurazione utilizzando i principi GitOps e ArgoCD
+        talk_description: "Un'operazione di deployment ha funzionato su un ambiente di staging ma
+          crea problemi in prod. Un rollback di un applicativo sullo stesso ambiente
+          non funziona più correttamente nonostante tutto sembri identico.
+          Sicuramente sono problematiche molto comuni capitate a tante persone nel
+          mondo IT.  Una delle cause più comuni è in genere il drift o deriva delle
+          configurazioni, dovuto in genere a modifiche manuali e non tracciate sugli
+          ambienti. È un'eredità scomoda che ci portiamo dietro dall'epoca
+          dell'infrastruttura basata su VM o infrastruttura bare metal.  I principi
+          GitOps e ArgoCD su Kubernetes ci vengono in soccorso per aiutarci a
+          risolvere questi problemi!  In questo talk andremo a esplorare come
+          l'approccio GitOps con ArgoCD ci dia una mano su questo! "
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
         speakers:
-          speaker_1: *speaker
-      titolotalk1:
-        item_type: "talk"
+          speaker_1: *paolocarta
+      webassembly:-the-next-frontier-of-cloud-computing-2:
+        item_type: talk
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        talk_title: "WebAssembly: The Next Frontier of Cloud Computing"
+        talk_description: "In questo talk, esploreremo come WebAssembly (Wasm) sia destinato a
+          diventare un protagonista importante nel futuro del cloud computing. Wasm
+          è un formato binario che può essere compilato da molti linguaggi di
+          programmazioni diversi ed eseguito su una varietà di sistemi operativi e
+          architetture. Le sue prestazioni quasi native, la portabilità e la
+          sicurezza lo rendono una soluzione ideale per affrontare le sfide dello
+          sviluppo, del deployment e della manutenzione di applicazioni
+          distribuite.  Una delle tendenze Cloud Native in più rapida crescita è
+          l’adozione di Wasm, con progetti come Docker+Wasm (ora in Beta) lanciati
+          con una partnership tra Docker e il runtime Wasm del CNCF, WasmEdge.
+          L’efficienza e la velocità di Wasm lo rendono ideale per lo scaling
+          on-demand, mentre il suo ambiente sandboxed e l’approccio deny-by-default
+          all’accesso alle funzionalità offrono una maggiore sicurezza.  In questo
+          talk, approfondiremo le key features offerte da Wasm e come può aiutare a
+          risolvere le sfide poste dalle diverse CPU, dai diversi ambienti
+          operativi, le preoccupazioni per la sicurezza, l’architettura delle
+          applicazioni distribuite e la scalabilità. "
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
         speakers:
-          speaker_1: *speaker
+          speaker_1: *edoardodusi
+      and-then-there-was-k8s-3:
+        item_type: talk
+        track: *track_1
+        talk_title: And then there was k8s
+        talk_description: Da OS/360 (1964) a kubernetes (2014) è stata una lunga passeggiata. A che
+          punto siamo dopo dieci (quasi) anni di kubernetes ? Abbiamo raggiunto il
+          picco evolutivo, o no ?
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *michelefinelli
+      viaggio-all'interno-di-prometheus:-architettura-funzionamento-novita-e-prospettive-future-nel-monitoraggio-cloud-native-4:
+        item_type: talk
+        track: *track_1
+        talk_title: "Viaggio all'interno di Prometheus: Architettura, funzionamento, novità e
+          prospettive future nel monitoraggio cloud native"
+        talk_description: Prometheus è stato il secondo progetto accolto dalla CNCF dopo Kubernetes,
+          ma il suo sviluppo iniziale risale al 2012, rendendolo più vecchio di
+          Kubernetes stesso. Negli anni Prometheus ha ottenuto un elevato livello di
+          adozione e ad oggi rappresenta lo standard de facto nella gestione del
+          monitoraggio e delle metriche in ambito cloud native.  In questo talk
+          approfondiremo l'architettura di Prometheus, le modalità di raccolta dati,
+          il linguaggio di interrogazione e le opzioni disponibili per
+          l'archiviazione a lungo termine. Presenteremo inoltre le novità introdotte
+          nell'ultimo anno e le funzionalità in fase di sviluppo.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *martinofornasa
+      implementing-chaos-engineering-in-kubernetes-5:
+        item_type: talk
+        track: *track_1
+        talk_title: Implementing Chaos Engineering in Kubernetes
+        talk_description: Quante volte vi è capitato di rilasciare un'applicazione in produzione su
+          Kubernetes e avete riscontrato problemi di difficile individuazione? E
+          quante notti in bianco vi sono servite per risolverli? In genere il motivo
+          per cui si verifica un problema non è sempre uno solo e anche se nel
+          sistema tutti i servizi sono completamente funzionanti, potrebbero sempre
+          esserci dei comportamenti inaspettati. E se ci fosse un modo per prevedere
+          queste situazioni prima di arrecare danni ai vostri clienti?  In questa
+          sessione vediamo come testare la resilienza delle nostre applicazioni
+          usando i principi di Chaos Engineering e Azure Chaos Studio.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *antonioliccardi
+      guida-galattica-per-autostoppisti:-cloud-native-security-su-kubernetes.-7:
+        item_type: talk
+        track: *track_1
+        talk_title: "Guida galattica per autostoppisti: Cloud Native Security su Kubernetes."
+        talk_description: Abbiamo Kubernetes. Great. E ora? Questo talk vuole andare a rispondere a
+          questa domanda e a molto altro. Andremo a fare un deep dive di quello che
+          significa fare day2 operations su cluster Kubernetes con focus verticale
+          sulla gestione degli aspetti di sicurezza. Nello specifico cercheremo di
+          dare una overview di alto livello, ma comunque azionabile, con esempi
+          concreti e non banali, di tutti quelli che sono gli aspetti fondamentali
+          di cui devi prenderti cura per erogare workload containerizzati su
+          Kubernetes in modo sicuro. L'obiettivo e' quello di darti tutti gli
+          strumenti per tornare alla tua vita di tutti i giorni con una guida di
+          quali argomenti studiare, da quali risorse partire e con quale criticità
+          valutare i diversi aspetti della sicurezza "a bordo cluster" nel tuo
+          contesto.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *jacoponardiello
+      microservizi:-awareness-e-discovery-pattern-su-k8s-8:
+        item_type: talk
+        track: *track_1
+        talk_title: "Microservizi: Awareness e Discovery Pattern su K8s"
+        talk_description: Le potenzialità offerte da Kubernetes nell'orchestrare i nostri
+          microservizi ci mettono di fronte a problematiche che, in un contesto
+          monolitico, non incontreremmo. Il singolo microservizio A deve sapere o
+          meno che esistono più repliche di un microservizio B che ha bisogno di
+          interrogare? E in che modo è maggiormente conveniente risolvere questa
+          problematica? Queste ed altre casistiche sono l'argomento che
+          affronteremo, con esempi e casi d'uso reali.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *gregoriopalama
+      k8s-operators:-the-next-war-9:
+        item_type: talk
+        track: *track_1
+        talk_title: "K8s Operators: The next war"
+        talk_description: OMG quanti operators ci sono in giro! Ma quale devo scegliere? Ma ne ho
+          davvero bisogno?  Che impatto ha un operator sulla mia architettura? In
+          questo talk riporto un po' di esperienze sugli operators che ovviamente
+          sono discordanti tra di loro ma magari possono aiutarci a comprendere
+          quando dove e se usarli.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *gabrielesantomaggio
+      alp-la-nuova-frontiera-del-sistema-operativo-per-i-containers-10:
+        item_type: talk
+        track: *track_1
+        talk_title: ALP - La Nuova Frontiera del Sistema Operativo per i Containers
+        talk_description: In questo intervento presenteremo un concetto innovativo di sistema
+          operativo basato su Adaptable Linux Platform (ALP). ALP è stato progettato
+          per costruire sistemi Linux flessibili che soddisfino le esigenze future
+          legate alla gestione delle infrastrutture. Mostreremo come la
+          compartimentazione peculiare di ALP fornisca una granularità variabile dei
+          componenti forniti, consentendo una selezione flessibile delle
+          applicazioni attraverso immagini, container, RPM e altro ancora. Con ALP,
+          il sistema operativo è nettamente separato dal livello applicativo,
+          creando una base sicura, stabile e immutabile per l’infrastruttura.Infine,
+          approfondiremo la visione di ALP e il modo in cui questa piattaforma ci
+          permette di costruire un’infrastruttura realmente incentrata sul carico di
+          lavoro.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *marcovarlese
