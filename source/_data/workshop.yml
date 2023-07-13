@@ -213,7 +213,7 @@ workshops:
     description_long:
       "<i><b>Dalla gestione sicura delle Pipeline CI/CD al rispetto di standard e procedure nei processi di build del software.</i></b>
       <br><br  />
-      Il workshop è rivolto a DevOps e DevSecOps che vogliono costruire o approfondire la propria conoscenza sulla gestione ed implementazione di Pipeline CI/CD sicure per governare l'intero SSDLC.
+      Questo workshop di livello avanzato è rivolto a DevOps e DevSecOps che vogliono approfondire la propria conoscenza sulla gestione ed implementazione di Pipeline CI/CD sicure per governare l'intero SSDLC.
       <br><br  />
       Partiremo dalla spiegazione e l’approfondimento dei concetti di base delle pipeline CI/CD.
       Entreremo poi nel vivo dei framework per la gestione della supply chain security, di Tekton e dei security/quality gate da implementare prima della build software.
@@ -240,9 +240,9 @@ workshops:
     topics_title: "Programma"
     topics:
       - "Introduzione alla sicurezza della Supply Chain"
-      - "Introduzione ai principali framework per la supply chain security"
+      - "Approfondimento sui principali framework per la Supply Chain Security"
       - "Introduzione alle pipeline di CI/CD"
-      - "Cloud native CI/CD con Tekton"
+      - "Approfondimento delle Cloud native CI/CD con Tekton"
       - "Spiegazione e implementazione dei security e quality gate"
     addressees_title: "Partecipando a questo workshop:"
     addressees_description: "<ul>
@@ -251,10 +251,10 @@ workshops:
     <li>Conoscerai i principali controlli di qualità e sicurezza.</li>
     </ul>"
     requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Il workshop è <b>introduttivo al mondo della Supply Chain Security</b> ed è rivolto a DevOps e DevSecOps engineer.
+    requirements_description: "Il workshop è <b>avanzato e fornisce una conoscenza approfondita del mondo della Supply Chain Security</b>, ed è rivolto a DevOps e DevSecOps engineer.
     Sono richieste:<ul>
-    <li>Familiarità con ambiente Linux/Unix;</li>
-    <li>Familiarità con Kubernetes;</li>
+    <li>Buona conoscenza dell'ambiente Linux/Unix;</li>
+    <li>Buona conoscenza di Kubernetes;</li>
     <li>Familiarità con pipeline CI/CD.</li>
     </ul>"
     useful_info_title: "Informazioni utili"
