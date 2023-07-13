@@ -92,138 +92,173 @@ workshops:
     # CTA
     cta_title: "Assicurati un posto! I biglietti sono in vendita"
 
-#   SIGHUP1:
-#     ws_id: SIGHUP1
-#     is_external: false
-#     page_uri: "workshop/SIGHUP1.html"
-#     page_title: ""
-#     workshop_title: ""
-#     ticket_url: "https://containerday-2023.eventbrite.com"
-#     ticket_label: "Partecipa al workshop"
-#     location_title: "Dove"
-#     location: "Bologna"
-#     # online_location: "online"
-#     location_name: "Hotel Savoia Regency"
-#     # location_name: "The Internet"
-#     location_contact_phone: ""
-#     location_contact_email: ""
-#     location_contact_url: "https://www.savoia.eu/"
-#     location_address: "Via del Pilastro, 2, 40127 Bologna BO"
-#     location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
-#     location_maps_label: "Mappa"
-#     location_additional_info: ""
-#     # location_additional_info: "add info 2"
-#     whatandwhen_title: "Quando"
-#     whatandwhen_additional_info: "Mercoledì 11 Ottobre 2023, dalle 9:30 alle 17:30. Sono inclusi coffee break e pranzo."
-# #    whatandwhen_additional_info: "Giovedì 17 Marzo 2022, dalle 9 alle 18"
-#     date: 2023-11-10T09:30+02:00
-#     end_date: 2023-11-10T17:30+02:00
-#     date_text: ""
-#     language_title: "Lingua"
-#     language: "italiano"
-#     # language_ext: "Lingua: italiano"
-#     language_additional_info: ""
-#     collab: "Workshop realizzato in collaborazione con SUSE"
-#     # description: "<i>sottotitolo o altra riga di descrizione sintetica</i>"
-#     description_long:
-#       "   <br><br
-#       <br><br  />
-#       <br><br  />"
-#     # video trailer?
-#     trailer: false
-#     trailer_url: ""
-#     # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
-#     teacher_title: "Docenti"
-#     teachers:
-#       teacher_1:
-#         teacher_name: ""
-#         teacher_bio: ""
-#         pic_filename: ""
-#         teacher_role: ""
-#         teacher_org: ""
-#       teacher_2:
-#         teacher_name: ""
-#         teacher_bio: ""
-#         pic_filename: ""
-#         teacher_role: ""
-#         teacher_org: ""
-#     topics_title: "Programma"
-#     topics:
-#       - ""
-#     addressees_title: "A chi è rivolto"
-#     addressees_description: ""
-#     requirements_title: "Requisiti di partecipazione"
-#     requirements_description: "."
-#     useful_info_title: "Informazioni utili"
-#     useful_info_description: "Il workshop si svolge in presenza, a Bologna. Non è possibile partecipare da remoto.
-#     <br><br  /><i>ATTENZIONE: Il biglietto per il workshop è venduto separatamente da quello per la conferenza. Per partecipare a workshop + conferenza occorre acquistare due biglietti separati.</i>"
-#     # CTA
-#     cta_title: "Assicurati un posto! I biglietti sono in vendita"
+  kubernetes-security:
+    ws_id: kubernetes-security
+    is_external: false
+    page_uri: "workshop/kubernetes-security.html"
+    page_title: "Kubernetes Security Best Practices"
+    workshop_title: "Kubernetes Security Best Practices"
+    ticket_url: "https://containerday-2023.eventbrite.com"
+    ticket_label: "Partecipa al workshop"
+    location_title: "Dove"
+    location: "Bologna"
+    # online_location: "online"
+    location_name: "Hotel Savoia Regency"
+    # location_name: "The Internet"
+    location_contact_phone: ""
+    location_contact_email: ""
+    location_contact_url: "https://www.savoia.eu/"
+    location_address: "Via del Pilastro, 2, 40127 Bologna BO"
+    location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
+    location_maps_label: "Mappa"
+    location_additional_info: ""
+    # location_additional_info: "add info 2"
+    whatandwhen_title: "Quando"
+    whatandwhen_additional_info: "Mercoledì 11 Ottobre 2023, dalle 9:30 alle 17:30. Sono inclusi coffee break e pranzo."
+#    whatandwhen_additional_info: "Giovedì 17 Marzo 2022, dalle 9 alle 18"
+    date: 2023-11-10T09:30+02:00
+    end_date: 2023-11-10T17:30+02:00
+    date_text: "Mercoledì 11 Ottobre 2023"
+    language_title: "Lingua"
+    language: "italiano"
+    # language_ext: "Lingua: italiano"
+    language_additional_info: ""
+    collab: "Workshop realizzato in collaborazione con <a href='https://sighup.io/'>SIGHUP</a>"
+    description: "<i>Strategie e pratiche per proteggere i tuoi cluster in produzione</i>"
+    description_long:
+      "<i><b>Strategie e pratiche per proteggere i tuoi cluster in produzione</i></b>
+      <br><br  />
+      Il workshop è rivolto a profili DevOps e DevSecOps, che vogliono approfondire le proprie conoscenze sulla gestione della sicurezza in Kubernetes ed imparare le relative best-practice per la messa in produzione dei Cluster.
+      Partiremo con un ripasso introduttivo sull’architettura di Kubernetes, per poi affrontare le basi delle configurazioni di sicurezza e tutti gli step necessari per avere dei Cluster sicuri in ambienti di produzione.
+      <br><br  />Affronteremo e metteremo in pratica i seguenti argomenti: gestione RBAC, network policies, secrets management, admission webhook, CIS benchmarks, OWASP top 10.<br><br  />"
+    # video trailer?
+    trailer: false
+    trailer_url: ""
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Docente"
+    teachers:
+      teacher_1:
+        teacher_name: "Luca Bandini"
+        teacher_bio: "Luca Bandini lavora come DevSecOps Engineer in SIGHUP, concentrandosi su aspetti di sicurezza di infrastrutture containerizzate e cloud. È sempre stato appassionato di programmazione, ma si è innamorato dell'ecosistema Cloud Native non molto tempo fa. Quando non lavora, si sporca le mani in progetti DIY o arrampicandosi su rocce."
+        pic_filename: "Luca-Bandini.png"
+        teacher_role: "DevSecOps Engineer"
+        teacher_org: "SIGHUP"
+      # teacher_2:
+      #   teacher_name: ""
+      #   teacher_bio: ""
+      #   pic_filename: ""
+      #   teacher_role: ""
+      #   teacher_org: ""
+    topics_title: "Programma"
+    topics:
+      - "Introduzione architettura Kubernetes"
+      - "Autenticazione e RBAC"
+      - "Cis benchmarks"
+      - "Network policies"
+      - "Admission webhook"
+      - "Secrets managements"
+      - "OWASP Top10"
+    addressees_title: "Partecipando a questo workshop:"
+    addressees_description: "<ul>
+    <li>Avrai una chiara visione dell’architettura di Kubernetes e dei componenti core;</li>
+<li>Imparerai le best practice di messa in sicurezza di tali componenti;</li>
+<li>Avrai modo di usare tool open source per eseguire assessment e testare il livello di sicurezza del cluster.</li>
+</ul>"
+    requirements_title: "Requisiti di partecipazione"
+    requirements_description: "Il workshop è <b>introduttivo al mondo della Kubernetes Security</b> ed è rivolto a DevOps e DevSecOps engineer.
+    Sono richieste:<ul>
+    <li>Familiarità con ambiente Linux/Unix;</li>
+    <li>Familiarità con Kubernetes;</li>
+    <li>Familiarità con concetti di sicurezza applicativa e architetturale.</li>
+    </ul>"
+    useful_info_title: "Informazioni utili"
+    useful_info_description: "Il workshop si svolge in presenza, a Bologna. Non è possibile partecipare da remoto.
+    <br><br  /><i>ATTENZIONE: Il biglietto per il workshop è venduto separatamente da quello per la conferenza. Per partecipare a workshop + conferenza occorre acquistare due biglietti separati.</i>"
+    # CTA
+    cta_title: "Assicurati un posto! I biglietti sono in vendita"
 
-#   rabbitmq:
-#     ws_id: Cyber-Ranching
-#     is_external: false
-#     page_uri: "workshop/Cyber-Ranching.html"
-#     page_title: "Lab Pratico di Cyber-Ranching"
-#     workshop_title: "Lab Pratico di Cyber-Ranching"
-#     ticket_url: "https://containerday-2023.eventbrite.com"
-#     ticket_label: "Partecipa al workshop"
-#     location_title: "Dove"
-#     location: "Bologna"
-#     # online_location: "online"
-#     location_name: "Hotel Savoia Regency"
-#     # location_name: "The Internet"
-#     location_contact_phone: ""
-#     location_contact_email: ""
-#     location_contact_url: "https://www.savoia.eu/"
-#     location_address: "Via del Pilastro, 2, 40127 Bologna BO"
-#     location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
-#     location_maps_label: "Mappa"
-#     location_additional_info: ""
-#     # location_additional_info: "add info 2"
-#     whatandwhen_title: "Quando"
-#     whatandwhen_additional_info: "Mercoledì 11 Ottobre 2023, dalle 9:30 alle 17:30. Sono inclusi coffee break e pranzo."
-# #    whatandwhen_additional_info: "Giovedì 17 Marzo 2022, dalle 9 alle 18"
-#     date: 2023-11-10T09:30+02:00
-#     end_date: 2023-11-10T17:30+02:00
-#     date_text: ""
-#     language_title: "Lingua"
-#     language: "italiano"
-#     # language_ext: "Lingua: italiano"
-#     language_additional_info: ""
-#     collab: "Workshop realizzato in collaborazione con SUSE"
-#     # description: "<i>sottotitolo o altra riga di descrizione sintetica</i>"
-#     description_long:
-#       "   <br><br
-#       <br><br  />
-#       <br><br  />"
-#     # video trailer?
-#     trailer: false
-#     trailer_url: ""
-#     # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
-#     teacher_title: "Docenti"
-#     teachers:
-#       teacher_1:
-#         teacher_name: ""
-#         teacher_bio: ""
-#         pic_filename: ""
-#         teacher_role: ""
-#         teacher_org: ""
-#       teacher_2:
-#         teacher_name: ""
-#         teacher_bio: ""
-#         pic_filename: ""
-#         teacher_role: ""
-#         teacher_org: ""
-#     topics_title: "Programma"
-#     topics:
-#       - ""
-#     addressees_title: "A chi è rivolto"
-#     addressees_description: ""
-#     requirements_title: "Requisiti di partecipazione"
-#     requirements_description: "."
-#     useful_info_title: "Informazioni utili"
-#     useful_info_description: "Il workshop si svolge in presenza, a Bologna. Non è possibile partecipare da remoto.
-#     <br><br  /><i>ATTENZIONE: Il biglietto per il workshop è venduto separatamente da quello per la conferenza. Per partecipare a workshop + conferenza occorre acquistare due biglietti separati.</i>"
-#     # CTA
-#     cta_title: "Assicurati un posto! I biglietti sono in vendita"
+  software-security-supply-chain:
+    ws_id: software-security-supply-chain
+    is_external: false
+    page_uri: "workshop/software-security-supply-chain.html"
+    page_title: "Software Security Supply Chain a prova di Enterprise."
+    workshop_title: "Software Security Supply Chain a prova di Enterprise"
+    ticket_url: "https://containerday-2023.eventbrite.com"
+    ticket_label: "Partecipa al workshop"
+    location_title: "Dove"
+    location: "Bologna"
+    # online_location: "online"
+    location_name: "Hotel Savoia Regency"
+    # location_name: "The Internet"
+    location_contact_phone: ""
+    location_contact_email: ""
+    location_contact_url: "https://www.savoia.eu/"
+    location_address: "Via del Pilastro, 2, 40127 Bologna BO"
+    location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
+    location_maps_label: "Mappa"
+    location_additional_info: ""
+    # location_additional_info: "add info 2"
+    whatandwhen_title: "Quando"
+    whatandwhen_additional_info: "Mercoledì 11 Ottobre 2023, dalle 9:30 alle 17:30. Sono inclusi coffee break e pranzo."
+#    whatandwhen_additional_info: ""
+    date: 2023-11-10T09:30+02:00
+    end_date: 2023-11-10T17:30+02:00
+    date_text: "Mercoledì 11 Ottobre 2023"
+    language_title: "Lingua"
+    language: "italiano"
+    # language_ext: "Lingua: italiano"
+    language_additional_info: ""
+    collab: "Workshop realizzato in collaborazione con <a href='https://sighup.io/'>SIGHUP</a>"
+    description: "<i>Dalla gestione sicura delle Pipeline CI/CD al rispetto di standard e procedure nei processi di build del software.</i>"
+    description_long:
+      "<i><b>Dalla gestione sicura delle Pipeline CI/CD al rispetto di standard e procedure nei processi di build del software.</i></b>
+      <br><br  />
+      Il workshop è rivolto a profili DevOps e DevSecOps, che vogliono costruire o approfondire la propria conoscenza sulla gestione ed implementazione di Pipeline CI/CD sicure per governare l’indero SSDLC.
+      <br><br  />
+      Partiremo dalla spiegazione e l’approfondimento dei concetti di base delle pipeline CI/CD.
+      Entreremo poi nel vivo dei framework per la gestione della supply chain security, di Tekton e dei security/quality gate da implementare prima della build softare.
+      <br><br  />"
+    # video trailer?
+    trailer: false
+    trailer_url: ""
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Docente"
+    teachers:
+      teacher_1:
+        teacher_name: "Simone Ragonesi"
+        teacher_bio: "Con anni di esperienza come ingegnere di sistema e sviluppatore software, Simone ha visto di tutto: bug che ti fanno ridere, crash che ti fanno piangere e righe di codice così eleganti da farti venire una lacrima agli occhi.
+        La missione di Simone è progettare sistemi cloud-native sicuri ed efficienti che farebbero alzare il cappello in segno di rispetto persino ai più noti hacker."
+        pic_filename: "Simone-Ragonesi.png"
+        teacher_role: "DevSecOps Engineer"
+        teacher_org: "SIGHUP"
+      # teacher_2:
+      #   teacher_name: ""
+      #   teacher_bio: ""
+      #   pic_filename: ""
+      #   teacher_role: ""
+      #   teacher_org: ""
+    topics_title: "Programma"
+    topics:
+      - "Introduzione alla sicurezza della supply chain"
+      - "Introduzione ai principali framework per la supply chain security"
+      - "Introduzione alle pipeline di CI/CD"
+      - "Cloud native CI/CD con Tekton"
+      - "Spiegazione e implementazione dei security e quality gate"
+    addressees_title: "Partecipando a questo workshop:"
+    addressees_description: "<ul>
+    <li>Avrai una chiara visione della supply chain security;</li>
+    <li>Imparerai a disegnare pipeline cloud-native sicure;</li>
+    <li>Conoscerai i principali controlli di qualità e sicurezza.</li>
+    </ul>"
+    requirements_title: "Requisiti di partecipazione"
+    requirements_description: "Il workshop è <b>introduttivo al mondo della supply chain security</b> ed è rivolto a DevOps e DevSecOps engineer.
+    Sono richieste:<ul>
+    <li>Familiarità con ambiente Linux/Unix;</li>
+    <li>Familiarità con Kubernetes;</li>
+    <li>Familiarità con pipeline CI/CD.</li>
+    </ul>"
+    useful_info_title: "Informazioni utili"
+    useful_info_description: "Il workshop si svolge in presenza, a Bologna. Non è possibile partecipare da remoto.
+    <br><br  /><i>ATTENZIONE: Il biglietto per il workshop è venduto separatamente da quello per la conferenza. Per partecipare a workshop + conferenza occorre acquistare due biglietti separati.</i>"
+    # CTA
+    cta_title: "Assicurati un posto! I biglietti sono in vendita"
