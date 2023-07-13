@@ -130,7 +130,7 @@ workshops:
       <br><br  />
       Il workshop è rivolto a profili DevOps e DevSecOps, che vogliono approfondire le proprie conoscenze sulla gestione della sicurezza in Kubernetes ed imparare le relative best-practice per la messa in produzione dei Cluster.
       Partiremo con un ripasso introduttivo sull’architettura di Kubernetes, per poi affrontare le basi delle configurazioni di sicurezza e tutti gli step necessari per avere dei Cluster sicuri in ambienti di produzione.
-      <br><br  />Affronteremo e metteremo in pratica i seguenti argomenti: gestione RBAC, network policies, secrets management, admission webhook, CIS benchmarks, OWASP top 10.<br><br  />"
+      <br><br  />Affronteremo e metteremo in pratica i seguenti argomenti: gestione dell'autenticazione e RBAC, network policies, secrets management, admission webhooks, CIS benchmarks, OWASP top 10.<br><br  />"
     # video trailer?
     trailer: false
     trailer_url: ""
@@ -151,9 +151,9 @@ workshops:
       #   teacher_org: ""
     topics_title: "Programma"
     topics:
-      - "Introduzione architettura Kubernetes"
+      - "Introduzione all'architettura di Kubernetes"
       - "Autenticazione e RBAC"
-      - "Cis benchmarks"
+      - "CIS benchmarks"
       - "Network policies"
       - "Admission webhook"
       - "Secrets managements"
@@ -213,10 +213,10 @@ workshops:
     description_long:
       "<i><b>Dalla gestione sicura delle Pipeline CI/CD al rispetto di standard e procedure nei processi di build del software.</i></b>
       <br><br  />
-      Il workshop è rivolto a profili DevOps e DevSecOps, che vogliono costruire o approfondire la propria conoscenza sulla gestione ed implementazione di Pipeline CI/CD sicure per governare l’indero SSDLC.
+      Il workshop è rivolto a DevOps e DevSecOps che vogliono costruire o approfondire la propria conoscenza sulla gestione ed implementazione di Pipeline CI/CD sicure per governare l'intero SSDLC.
       <br><br  />
       Partiremo dalla spiegazione e l’approfondimento dei concetti di base delle pipeline CI/CD.
-      Entreremo poi nel vivo dei framework per la gestione della supply chain security, di Tekton e dei security/quality gate da implementare prima della build softare.
+      Entreremo poi nel vivo dei framework per la gestione della supply chain security, di Tekton e dei security/quality gate da implementare prima della build software.
       <br><br  />"
     # video trailer?
     trailer: false
@@ -239,19 +239,19 @@ workshops:
       #   teacher_org: ""
     topics_title: "Programma"
     topics:
-      - "Introduzione alla sicurezza della supply chain"
+      - "Introduzione alla sicurezza della Supply Chain"
       - "Introduzione ai principali framework per la supply chain security"
       - "Introduzione alle pipeline di CI/CD"
       - "Cloud native CI/CD con Tekton"
       - "Spiegazione e implementazione dei security e quality gate"
     addressees_title: "Partecipando a questo workshop:"
     addressees_description: "<ul>
-    <li>Avrai una chiara visione della supply chain security;</li>
-    <li>Imparerai a disegnare pipeline cloud-native sicure;</li>
+    <li>Avrai una chiara visione della Supply Chain Security;</li>
+    <li>Imparerai a disegnare Pipeline Cloud Native sicure;</li>
     <li>Conoscerai i principali controlli di qualità e sicurezza.</li>
     </ul>"
     requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Il workshop è <b>introduttivo al mondo della supply chain security</b> ed è rivolto a DevOps e DevSecOps engineer.
+    requirements_description: "Il workshop è <b>introduttivo al mondo della Supply Chain Security</b> ed è rivolto a DevOps e DevSecOps engineer.
     Sono richieste:<ul>
     <li>Familiarità con ambiente Linux/Unix;</li>
     <li>Familiarità con Kubernetes;</li>
