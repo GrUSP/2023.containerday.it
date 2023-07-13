@@ -7,24 +7,23 @@ schedule_under_construction_description: "La scaletta della conferenza sarà pub
 speaker_1: &paolocarta
   speaker_in_speaker_lists: true
   speaker_name: Paolo Carta
-  speaker_pic_filename: paolo-carta.png
+  speaker_pic_filename: Paolo-Carta.png
   speaker_role: Software and DevOps Engineer
   speaker_bio: Paolo è un ingegnere delle telecomunicazioni, ha studiato e lavorato
     in UK e in Svizzera tedesca per svariati anni per poi tornare in Italia
     lavorando per Red Hat come consulente su sviluppo Cloud Native e
     DevOps.  Dopo questa ultima importante esperienza in Red Hat ha intrapreso
     la carriera da freelance ad inizio 2021 lanciando il suo primo corso online
-    su Kubernetes, offrendo servizi di consulenza e training da remoto.   Nel
+    su Kubernetes, offrendo servizi di consulenza e training da remoto. Nel
     2022 ha pubblicato il suo primo Ebook dedicato agli sviluppatori su
     Kubernetes viaggiando in giro per il mondo. Al momento è focalizzato
     principalmente su sistemi di CI/CD per Kubernetes e tool GitOps come ArgoCD.
   speaker_twitter_url: https://twitter.com/cl4mer
-  speaker_github_url: ""
-  speaker_linkedin_url: https://github.com/paolocarta
+  speaker_github_url: "https://github.com/paolocarta"
 speaker_2: &edoardodusi
   speaker_in_speaker_lists: true
   speaker_name: Edoardo Dusi
-  speaker_pic_filename: edoardo-dusi.png
+  speaker_pic_filename: Edoardo-Dusi.png
   speaker_role: Developer Relations Engineer @ SparkFabrik
   speaker_bio: Edoardo è Developer Relations Engineer presso SparkFabrik, una tech
     company che aiuta i propri clienti a costruire prodotti digitali con
@@ -40,16 +39,13 @@ speaker_2: &edoardodusi
 speaker_3: &michelefinelli
   speaker_in_speaker_lists: true
   speaker_name: Michele Finelli
-  speaker_pic_filename: michele-finelli.png
+  speaker_pic_filename: Michele-Finelli.png
   speaker_role: BioDec VP
   speaker_bio: Server shepherd and dungeon master
-  speaker_twitter: ""
-  speaker_github: ""
-  speaker_linkedin: ""
 speaker_4: &martinofornasa
   speaker_in_speaker_lists: true
   speaker_name: Martino Fornasa
-  speaker_pic_filename: martino-fornasa.png
+  speaker_pic_filename: Martino-Fornasa.png
   speaker_role: Independent Consultant and Trainer | Cloud Native | DevOps
   speaker_bio: Sono un consulente indipendente e formatore. Accompagno le
     aziende nella progettazione e implementazione di una efficace strategia di
@@ -64,7 +60,7 @@ speaker_4: &martinofornasa
 speaker_5: &antonioliccardi
   speaker_in_speaker_lists: true
   speaker_name: Antonio Liccardi
-  speaker_pic_filename: antonio-liccardi.png
+  speaker_pic_filename: Antonio-Liccardi.png
   speaker_role: CTO @ Blexin
   speaker_bio: Antonio Liccardi è uno speaker, autore di libri e trainer che
     lavora come Chief Technology Officer presso Blexin. Grazie alla sua passione
@@ -80,7 +76,7 @@ speaker_5: &antonioliccardi
 speaker_7: &jacoponardiello
   speaker_in_speaker_lists: true
   speaker_name: Jacopo Nardiello
-  speaker_pic_filename: jacopo-nardiello.png
+  speaker_pic_filename: Jacopo-Nardiello.png
   speaker_role: Founder @ SIGHUP | CNCF Ambassador | LF Europe Advisory Board
   speaker_bio: "Jacopo Nardiello è un DevOps Engineer appassionato di
     automazione delle infrastrutture, orchestrazione e sistemi distribuiti.
@@ -104,12 +100,11 @@ speaker_8: &gregoriopalama
     co-organizzatore del GDG Pescara assieme ad altri sviluppatori, amo
     condividere le mie conoscenze e cercare di farlo in maniera divertente.
   speaker_twitter_url: https://twitter.com/gregoriopalama
-  speaker_github_url: ""
   speaker_linkedin_url: https://www.linkedin.com/in/gregorio-palam%C3%A0/
 speaker_9: &gabrielesantomaggio
   speaker_in_speaker_lists: true
   speaker_name: Gabriele Santomaggio
-  speaker_pic_filename: gabriele-santomaggio.png
+  speaker_pic_filename: Gabriele-Santomaggio.png
   speaker_role: Senior Member of Technical Staff @ VMare
   speaker_bio: "RabbitMQ team in VMware. Appassionato di sistemi
     distribuiti ed applicazioni ad alte performance. 99,9% open-source. "
@@ -119,28 +114,22 @@ speaker_9: &gabrielesantomaggio
 speaker_10: &marcovarlese
   speaker_in_speaker_lists: true
   speaker_name: Marco Varlese
-  speaker_pic_filename: marco-varlese.png
+  speaker_pic_filename: Marco-Varlese.png
   speaker_role: Director of Engineering @ SUSE
   speaker_bio: Sono Director of Engineering in SUSE dove guido il dipartimento
     che gestisce, sviluppa e supporta i principali prodotti sviluppati da SUSE
     per ambito enterprise, come SLES, SLED, SLE Micro, SLE per Automotive ed,
     ora, ALP. Prima di diventare Director sono stato Distinguished Engineer in
     SUSE prima e SW Architect in Intel.
-  speaker_twitter_url: ""
-  speaker_github_url: ""
-  speaker_linkedin_url: ""
 speaker_6: &serenalorenzini
   speaker_in_speaker_lists: true
   speaker_name: "Serena Lorenzini"
-  speaker_pic_filename: serena-lorenzini.png
+  speaker_pic_filename: Serena-Lorenzini.png
   speaker_role: "MASTER OF CEREMONY - Linux SysAdmin @ BioDec"
   speaker_bio: PhD in biologia e diversi anni di esperienza nel mondo Linux.
     Appassionata di automazione delle infrastrutture. Mi occupo di gestione di
     ambienti per l' esecuzione di applicazioni scientifiche nei cluster HPC, in
     particolare per la ricerca genomica.
-  speaker_twitter_url: ""
-  speaker_github_url: ""
-  speaker_linkedin_url: ""
   is_mc: true
 
 speakers:
