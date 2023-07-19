@@ -92,13 +92,11 @@ speaker_8: &gregoriopalama
   speaker_in_speaker_lists: true
   speaker_name: Gregorio Palamà
   speaker_pic_filename: gregorio-palama.png
-  speaker_role: CTO @ Aesys | Community Manager @ GDG Pescara
-  speaker_bio: Lavoro nell'industria IT da oltre 10 anni e ho esperienze in
-    diversi settori. Attualmente, ricopro il ruolo di Chief Technology Officer
-    in Aesys srl. Sono costantemente alla ricerca di cose nuove da studiare e
-    apprendere e non riesco a stare neanche un giorno senza aggiornarmi. Sono
-    co-organizzatore del GDG Pescara assieme ad altri sviluppatori, amo
-    condividere le mie conoscenze e cercare di farlo in maniera divertente.
+  speaker_role: Senior DevOps & Cloud Engineer  @ Lutech | Community Manager @ GDG Pescara
+  speaker_bio: "Lavoro nell'industria IT da oltre 15 anni e ho esperienze in diversi settori.
+  Attualmente, ricopro il ruolo di Senior DevOps & Cloud Engineer in Lutech.
+  Sono costantemente alla ricerca di cose nuove da studiare e apprendere e non riesco a stare neanche un giorno senza aggiornarmi.
+  Sono co-organizzatore del GDG Pescara assieme ad altri sviluppatori, amo condividere le mie conoscenze e cercare di farlo in maniera divertente"
   speaker_twitter_url: https://twitter.com/gregoriopalama
   speaker_linkedin_url: https://www.linkedin.com/in/gregorio-palam%C3%A0/
 speaker_9: &gabrielesantomaggio
