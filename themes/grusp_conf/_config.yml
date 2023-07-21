@@ -11,12 +11,13 @@ menu:
   # scommentare per generare pagina
   # schedule: schedule
   # menu item for workshop
-  # workshop: workshop
+  workshop: workshop
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
-# workshop_submenu:
-#   workshop_1: rails and vue
-#   workshop_2: sample second workshop
+workshop_submenu:
+  software-security-supply-chain: Software Security Supply Chain a prova di Enterprise
+  kubernetes-security: Kubernetes Security Best Practices
+  Cyber-Ranching: Lab Pratico di Cyber-Ranching
 
 # welcome submenu
 welcome_submenu:
