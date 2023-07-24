@@ -91,7 +91,7 @@ speaker_7: &jacoponardiello
 speaker_8: &gregoriopalama
   speaker_in_speaker_lists: true
   speaker_name: Gregorio Palamà
-  speaker_pic_filename: gregorio-palama.png
+  speaker_pic_filename: Gregorio-Palama.png
   speaker_role: Senior DevOps & Cloud Engineer  @ Lutech | Community Manager @ GDG Pescara
   speaker_bio: "Lavoro nell'industria IT da oltre 15 anni e ho esperienze in diversi settori.
   Attualmente, ricopro il ruolo di Senior DevOps & Cloud Engineer in Lutech.
