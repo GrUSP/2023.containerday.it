@@ -213,13 +213,12 @@ workshops:
     description_long:
       "<b><i>Orientarsi nel selvaggio West DevSecOps: un viaggio alla gestione di Kubernetes e nella sicurezza dei container.</b></i>
       <br><br  /> In questo laboratorio pratico vedremo come utilizzare gli strumenti necessari per poter pianificare una strategia di sicurezza efficace e all'avanguardia.
-      Saranno introdotti Rancher, Docker e Kubernetes guidandovi attraverso i passaggi per eseguire deployment di un cluster Kubernetes. Il laboratorio è pensato per DevOps, e per chi lavora nel team IT a tutti i livelli, a cui interessa la gestione e la sicurezza degli ambienti basati su container, orchestrati attraverso Kubernetes.
       <br><br  /> Il Lab unisce in un'unica giornata (e per la prima volta da vivo e in italiano) due workshop approfonditi: il Rancher Virtual Rodeo e il SUSE NeuVector Container Security Rodeo.
       <ul>
       <li>• Il <b>Rancher Virtual Rodeo </b>, nella prima parte della giornata, offrirà un’introduzione approfondita a container, Kubernetes e Rancher. Cuore del workshop sarà la possibilità di creare un cluster Kubernetes, installare Rancher e sfruttare i suoi strumenti per la gestione.</li>
       <li>• Il <b>SUSE NeuVector Container Security Rodeo</b> che completa la giornata è il punto di partenza ideale per chi è alle prime armi con NeuVector o con la sicurezza dei container in generale. Approfondiremo le sfide poste alla sicurezza nel mondo cloud-native. Dalla scansione della pipeline end-to-end fino alla runtime security basata su un approccio zero-trust.</li>
       </ul>
-      <br><br  /> La giornata di Lab fornirà le competenze e le conoscenze pratiche necessarie per navigare con sicurezza nel mondo di Kubernetes e della sicurezza dei container. Partecipa ad una giornata di apprendimento ed esplorazione nel campo dinamico della tecnologia dei container."
+      <br><br  /> Il workshop fornisce competenze e conoscenze pratiche ed è pensato per DevOps, e per chi lavora nel team IT a tutti i livelli, a cui interessa la gestione e la sicurezza degli ambienti basati su container, orchestrati attraverso Kubernetes."
     # video trailer?
     trailer: false
     trailer_url: ""
