@@ -2,7 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://2023.containerday.it/welcome/about.html</loc>
+    
+    <lastmod>2023-07-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2023.containerday.it/workshop/software-security-supply-chain.html</loc>
+    
+    <lastmod>2023-07-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.containerday.it/schedule/index.html</loc>
+    
+    <lastmod>2023-07-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.containerday.it/sponsor/index.html</loc>
+    
+    <lastmod>2023-07-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.containerday.it/talks_speakers/index.html</loc>
+    
+    <lastmod>2023-07-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.containerday.it/welcome/index.html</loc>
     
     <lastmod>2023-07-26</lastmod>
     
@@ -17,41 +52,6 @@
   
   <url>
     <loc>https://2023.containerday.it/workshop/kubernetes-security.html</loc>
-    
-    <lastmod>2023-07-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.containerday.it/welcome/where.html</loc>
-    
-    <lastmod>2023-07-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.containerday.it/workshop/Cyber-Ranching.html</loc>
-    
-    <lastmod>2023-07-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.containerday.it/welcome/index.html</loc>
-    
-    <lastmod>2023-07-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.containerday.it/welcome/about.html</loc>
-    
-    <lastmod>2023-07-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2023.containerday.it/schedule/index.html</loc>
     
     <lastmod>2023-07-26</lastmod>
     
@@ -79,14 +79,14 @@
   </url>
   
   <url>
-    <loc>https://2023.containerday.it/sponsor/index.html</loc>
+    <loc>https://2023.containerday.it/welcome/where.html</loc>
     
     <lastmod>2023-07-26</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2023.containerday.it/talks_speakers/index.html</loc>
+    <loc>https://2023.containerday.it/workshop/Cyber-Ranching.html</loc>
     
     <lastmod>2023-07-26</lastmod>
     
