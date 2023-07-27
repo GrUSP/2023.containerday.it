@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "La scaletta della conferenza sarà pubblicata presto!"
 
@@ -157,28 +157,90 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2023-10-12T09:00
     title: "Day 1"
     talks:
-      talk_1:
+      checkin:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
+        start_datetime: 2023-10-12T08:45+02:00
+        end_datetime: 2023-10-12T09:30+02:00
         talk_title: "Check-in"
-      talk_2:
+      opening:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
-        talk_title: "Lunch break"
+        start_datetime: 2023-10-12T09:30+02:00
+        end_datetime: 2023-10-12T09:45+02:00
+        talk_title: "Intro by GrUSP"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2023-10-12T10:55+02:00
+        end_datetime: 2023-10-12T11:25+02:00
+        talk_title: "Pausa Caffé"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2023-10-12T13:10+02:00
+        end_datetime: 2023-10-12T14:40+02:00
+        talk_title: "Pausa pranzo"
         service_icon: "cutlery"
-      happy-hour:
+      coffee-afternoon:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
-
+        start_datetime: 2023-10-12T15:50+02:00
+        end_datetime: 2023-10-12T16:20+02:00
+        talk_title: "Pausa Caffé"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2023-10-12T17:30+02:00
+        end_datetime: 2023-10-12T17:40+02:00
+        talk_title: "Saluti da GrUSP"
       # talk
+      and-then-there-was-k8s-3:
+        item_type: talk
+        track: *track_1
+        talk_title: And then there was k8s
+        talk_description: Da OS/360 (1964) a kubernetes (2014) è stata una lunga passeggiata. A che
+          punto siamo dopo dieci (quasi) anni di kubernetes ? Abbiamo raggiunto il
+          picco evolutivo, o no ?
+        talk_video_url: ""
+        start_datetime: 2023-10-12T09:45+02:00
+        end_datetime: 2023-10-12T10:20+02:00
+        speakers:
+          speaker_1: *michelefinelli
+      k8s-operators:-the-next-war-9:
+        item_type: talk
+        track: *track_1
+        talk_title: "K8s Operators: The next war"
+        talk_description: OMG quanti operators ci sono in giro! Ma quale devo scegliere? Ma ne ho
+          davvero bisogno?  Che impatto ha un operator sulla mia architettura? In
+          questo talk riporto un po' di esperienze sugli operators che ovviamente
+          sono discordanti tra di loro ma magari possono aiutarci a comprendere
+          quando dove e se usarli.
+        talk_video_url: ""
+        start_datetime: 2023-10-12T10:20+02:00
+        end_datetime: 2023-10-12T10:55+02:00
+        speakers:
+          speaker_1: *gabrielesantomaggio
+      alp-la-nuova-frontiera-del-sistema-operativo-per-i-containers-10:
+        item_type: talk
+        track: *track_1
+        talk_title: ALP - La Nuova Frontiera del Sistema Operativo per i Containers
+        talk_description: In questo intervento presenteremo un concetto innovativo di sistema
+          operativo basato su Adaptable Linux Platform (ALP). ALP è stato progettato
+          per costruire sistemi Linux flessibili che soddisfino le esigenze future
+          legate alla gestione delle infrastrutture. Mostreremo come la
+          compartimentazione peculiare di ALP fornisca una granularità variabile dei
+          componenti forniti, consentendo una selezione flessibile delle
+          applicazioni attraverso immagini, container, RPM e altro ancora. Con ALP,
+          il sistema operativo è nettamente separato dal livello applicativo,
+          creando una base sicura, stabile e immutabile per l’infrastruttura.Infine,
+          approfondiremo la visione di ALP e il modo in cui questa piattaforma ci
+          permette di costruire un’infrastruttura realmente incentrata sul carico di
+          lavoro.
+        talk_video_url: ""
+        start_datetime: 2023-10-12T11:25+02:00
+        end_datetime: 2023-10-12T12:00+02:00
+        speakers:
+          speaker_1: *marcovarlese
       risolvere-il-drift-di-configurazione-utilizzando-i-principi-gitops-e-argocd-1:
         item_type: talk
         track: *track_1
@@ -195,10 +257,29 @@ days:
           risolvere questi problemi!  In questo talk andremo a esplorare come
           l'approccio GitOps con ArgoCD ci dia una mano su questo! "
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2023-10-12T12:00+02:00
+        end_datetime: 2023-10-12T12:35+02:00
         speakers:
           speaker_1: *paolocarta
+      viaggio-all'interno-di-prometheus:-architettura-funzionamento-novita-e-prospettive-future-nel-monitoraggio-cloud-native-4:
+        item_type: talk
+        track: *track_1
+        talk_title: "Viaggio all'interno di Prometheus: Architettura, funzionamento, novità e
+          prospettive future nel monitoraggio cloud native"
+        talk_description: Prometheus è stato il secondo progetto accolto dalla CNCF dopo Kubernetes,
+          ma il suo sviluppo iniziale risale al 2012, rendendolo più vecchio di
+          Kubernetes stesso. Negli anni Prometheus ha ottenuto un elevato livello di
+          adozione e ad oggi rappresenta lo standard de facto nella gestione del
+          monitoraggio e delle metriche in ambito cloud native.  In questo talk
+          approfondiremo l'architettura di Prometheus, le modalità di raccolta dati,
+          il linguaggio di interrogazione e le opzioni disponibili per
+          l'archiviazione a lungo termine. Presenteremo inoltre le novità introdotte
+          nell'ultimo anno e le funzionalità in fase di sviluppo.
+        talk_video_url: ""
+        start_datetime: 2023-10-12T12:35+02:00
+        end_datetime: 2023-10-12T13:10+02:00
+        speakers:
+          speaker_1: *martinofornasa
       webassembly:-the-next-frontier-of-cloud-computing-2:
         item_type: talk
         track: *track_1
@@ -221,41 +302,26 @@ days:
           operativi, le preoccupazioni per la sicurezza, l’architettura delle
           applicazioni distribuite e la scalabilità. "
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2023-10-12T14:40+02:00
+        end_datetime: 2023-10-12T15:15+02:00
         speakers:
           speaker_1: *edoardodusi
-      and-then-there-was-k8s-3:
+      microservizi:-awareness-e-discovery-pattern-su-k8s-8:
         item_type: talk
         track: *track_1
-        talk_title: And then there was k8s
-        talk_description: Da OS/360 (1964) a kubernetes (2014) è stata una lunga passeggiata. A che
-          punto siamo dopo dieci (quasi) anni di kubernetes ? Abbiamo raggiunto il
-          picco evolutivo, o no ?
+        talk_title: "Microservizi: Awareness e Discovery Pattern su K8s"
+        talk_description: Le potenzialità offerte da Kubernetes nell'orchestrare i nostri
+          microservizi ci mettono di fronte a problematiche che, in un contesto
+          monolitico, non incontreremmo. Il singolo microservizio A deve sapere o
+          meno che esistono più repliche di un microservizio B che ha bisogno di
+          interrogare? E in che modo è maggiormente conveniente risolvere questa
+          problematica? Queste ed altre casistiche sono l'argomento che
+          affronteremo, con esempi e casi d'uso reali.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2023-10-12T15:15+02:00
+        end_datetime: 2023-10-12T15:50+02:00
         speakers:
-          speaker_1: *michelefinelli
-      viaggio-all'interno-di-prometheus:-architettura-funzionamento-novita-e-prospettive-future-nel-monitoraggio-cloud-native-4:
-        item_type: talk
-        track: *track_1
-        talk_title: "Viaggio all'interno di Prometheus: Architettura, funzionamento, novità e
-          prospettive future nel monitoraggio cloud native"
-        talk_description: Prometheus è stato il secondo progetto accolto dalla CNCF dopo Kubernetes,
-          ma il suo sviluppo iniziale risale al 2012, rendendolo più vecchio di
-          Kubernetes stesso. Negli anni Prometheus ha ottenuto un elevato livello di
-          adozione e ad oggi rappresenta lo standard de facto nella gestione del
-          monitoraggio e delle metriche in ambito cloud native.  In questo talk
-          approfondiremo l'architettura di Prometheus, le modalità di raccolta dati,
-          il linguaggio di interrogazione e le opzioni disponibili per
-          l'archiviazione a lungo termine. Presenteremo inoltre le novità introdotte
-          nell'ultimo anno e le funzionalità in fase di sviluppo.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *martinofornasa
+          speaker_1: *gregoriopalama
       implementing-chaos-engineering-in-kubernetes-5:
         item_type: talk
         track: *track_1
@@ -270,14 +336,14 @@ days:
           sessione vediamo come testare la resilienza delle nostre applicazioni
           usando i principi di Chaos Engineering e Azure Chaos Studio.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2023-10-12T16:20+02:00
+        end_datetime: 2023-10-12T16:55+02:00
         speakers:
           speaker_1: *antonioliccardi
-      guida-galattica-per-autostoppisti:-cloud-native-security-su-kubernetes.-7:
+      guida-galattica-per-autostoppisti:-cloud-native-security-su-kubernetes-7:
         item_type: talk
         track: *track_1
-        talk_title: "Guida galattica per autostoppisti: Cloud Native Security su Kubernetes."
+        talk_title: "Guida galattica per autostoppisti: Cloud Native Security su Kubernetes"
         talk_description: Abbiamo Kubernetes. Great. E ora? Questo talk vuole andare a rispondere a
           questa domanda e a molto altro. Andremo a fare un deep dive di quello che
           significa fare day2 operations su cluster Kubernetes con focus verticale
@@ -291,58 +357,8 @@ days:
           valutare i diversi aspetti della sicurezza "a bordo cluster" nel tuo
           contesto.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2023-10-12T16:55+02:00
+        end_datetime: 2023-10-12T17:30+02:00
         speakers:
           speaker_1: *jacoponardiello
-      microservizi:-awareness-e-discovery-pattern-su-k8s-8:
-        item_type: talk
-        track: *track_1
-        talk_title: "Microservizi: Awareness e Discovery Pattern su K8s"
-        talk_description: Le potenzialità offerte da Kubernetes nell'orchestrare i nostri
-          microservizi ci mettono di fronte a problematiche che, in un contesto
-          monolitico, non incontreremmo. Il singolo microservizio A deve sapere o
-          meno che esistono più repliche di un microservizio B che ha bisogno di
-          interrogare? E in che modo è maggiormente conveniente risolvere questa
-          problematica? Queste ed altre casistiche sono l'argomento che
-          affronteremo, con esempi e casi d'uso reali.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *gregoriopalama
-      k8s-operators:-the-next-war-9:
-        item_type: talk
-        track: *track_1
-        talk_title: "K8s Operators: The next war"
-        talk_description: OMG quanti operators ci sono in giro! Ma quale devo scegliere? Ma ne ho
-          davvero bisogno?  Che impatto ha un operator sulla mia architettura? In
-          questo talk riporto un po' di esperienze sugli operators che ovviamente
-          sono discordanti tra di loro ma magari possono aiutarci a comprendere
-          quando dove e se usarli.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *gabrielesantomaggio
-      alp-la-nuova-frontiera-del-sistema-operativo-per-i-containers-10:
-        item_type: talk
-        track: *track_1
-        talk_title: ALP - La Nuova Frontiera del Sistema Operativo per i Containers
-        talk_description: In questo intervento presenteremo un concetto innovativo di sistema
-          operativo basato su Adaptable Linux Platform (ALP). ALP è stato progettato
-          per costruire sistemi Linux flessibili che soddisfino le esigenze future
-          legate alla gestione delle infrastrutture. Mostreremo come la
-          compartimentazione peculiare di ALP fornisca una granularità variabile dei
-          componenti forniti, consentendo una selezione flessibile delle
-          applicazioni attraverso immagini, container, RPM e altro ancora. Con ALP,
-          il sistema operativo è nettamente separato dal livello applicativo,
-          creando una base sicura, stabile e immutabile per l’infrastruttura.Infine,
-          approfondiremo la visione di ALP e il modo in cui questa piattaforma ci
-          permette di costruire un’infrastruttura realmente incentrata sul carico di
-          lavoro.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *marcovarlese
+
