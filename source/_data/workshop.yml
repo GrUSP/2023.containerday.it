@@ -32,7 +32,7 @@ workshops:
 #    whatandwhen_additional_info: ""
     date: 2023-11-10T09:30+02:00
     end_date: 2023-11-10T17:30+02:00
-    date_text: "Mercoledì 11 Ottobre 2023"
+    date_text: "Mercoledì 11 Ottobre 2023, 9:30-17:30"
     language_title: "Lingua"
     language: "italiano"
     # language_ext: "Lingua: italiano"
@@ -118,7 +118,7 @@ workshops:
 #    whatandwhen_additional_info: "Giovedì 17 Marzo 2022, dalle 9 alle 18"
     date: 2023-11-10T09:30+02:00
     end_date: 2023-11-10T17:30+02:00
-    date_text: "Mercoledì 11 Ottobre 2023"
+    date_text: "Mercoledì 11 Ottobre 2023, 9:30-17:30"
     language_title: "Lingua"
     language: "italiano"
     # language_ext: "Lingua: italiano"
@@ -203,7 +203,7 @@ workshops:
 #    whatandwhen_additional_info: "Giovedì 17 Marzo 2022, dalle 9 alle 18"
     date: 2023-11-10T09:30+02:00
     end_date: 2023-11-10T17:30+02:00
-    date_text: "Mercoledì 11 Ottobre 2023"
+    date_text: "Mercoledì 11 Ottobre 2023, 9:30-17:30"
     language_title: "Lingua"
     language: "italiano"
     # language_ext: "Lingua: italiano"
@@ -245,7 +245,7 @@ workshops:
     - "Introduzione a NeuVector: Le sfide della sicurezza dei container; Panoramica delle caratteristiche di NeuVector."
     - "In un ambiente a disposizione dei partecipanti: Installazione di NeuVector; NeuVector e CVEs - scanning; Runtime Security - imparare il comportamento di un’applicazione e gestirlo, monitoring o protect; DLP, WAFs, e altro."
     addressees_title: "A chi è rivolto"
-    addressees_description: "Il laboratorio è rivolto a persone con ruoli tecnici e manageriali (architect, devOps, engineer, security manager, IT manager...), che conoscono kubernetes e che vogliono migliorarne l’utilizzo e la gestione con strumenti potenti come rancher e studiare gli aspetti di cybersicurezza nel mondo container."
+    addressees_description: "Il laboratorio è rivolto a persone con ruoli tecnici e manageriali (architect, devOps, engineer, security manager, IT manager...), che conoscono kubernetes e che vogliono migliorarne l’utilizzo e la gestione con strumenti potenti come Rancher e studiare gli aspetti di cybersicurezza nel mondo container."
     requirements_title: "Requisiti di partecipazione"
     requirements_description: "Per partecipare al laboratorio sono necessarie:
     <ul>
