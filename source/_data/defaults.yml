@@ -60,7 +60,7 @@ conference:
   geninfo_description: "<p>containerday è la principale conferenza italiana dedicata esclusivamente alle tecnologie di containerizzazione e virtualizzazione ed alle buone pratiche ad esse associate.
   </p><p>Docker, Kubernetes e le tecnologie di virtualizzazione stanno cambiando radicalmente il mondo delle infrastrutture IT. Alla conferenza saranno presentate le best practices, le tecnologie innovative e gli strumenti più maturi per poter gestire e far evolvere una infrastruttura IT moderna.
   </p><p><b>containerday 2023 si svolge a Bologna e online, Giovedì 12 Ottobre 2023.</b>
-  Il giorno prima si svolgono 3 diversi <a href='https://2023.containerday.it/workshop/'>workshop</a>.
+  Il giorno prima si svolge il workshop <a href='http://localhost:4000/workshop/kubernetes-security.html'>Kubernetes Security Best Practices</a>.
   Il giorno dopo c'è la conferenza dedicata a <a href='https://2023.devsecopsday.it/'>DevSecOps.</a></p>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"

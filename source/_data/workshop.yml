@@ -6,91 +6,91 @@ workshop_img_credits:
 
 workshops:
 
-  software-security-supply-chain:
-    ws_id: software-security-supply-chain
-    is_external: false
-    page_uri: "workshop/software-security-supply-chain.html"
-    page_title: "Software Security Supply Chain a prova di Enterprise"
-    workshop_title: "Software Security Supply Chain a prova di Enterprise"
-    ticket_url: "https://containerday-2023.eventbrite.com"
-    ticket_label: "Partecipa al workshop"
-    location_title: "Dove"
-    location: "Bologna"
-    # online_location: "online"
-    location_name: "Hotel Savoia Regency"
-    # location_name: "The Internet"
-    location_contact_phone: ""
-    location_contact_email: ""
-    location_contact_url: "https://www.savoia.eu/"
-    location_address: "Via del Pilastro, 2, 40127 Bologna BO"
-    location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
-    location_maps_label: "Mappa"
-    location_additional_info: ""
-    # location_additional_info: "add info 2"
-    whatandwhen_title: "Quando"
-    whatandwhen_additional_info: "Mercoledì 11 Ottobre 2023, dalle 9:30 alle 17:30. Sono inclusi coffee break e pranzo."
-#    whatandwhen_additional_info: ""
-    date: 2023-11-10T09:30+02:00
-    end_date: 2023-11-10T17:30+02:00
-    date_text: "Mercoledì 11 Ottobre 2023, 9:30-17:30"
-    language_title: "Lingua"
-    language: "italiano"
-    # language_ext: "Lingua: italiano"
-    language_additional_info: ""
-    collab: "Workshop realizzato in collaborazione con <a href='https://sighup.io/'>SIGHUP</a>"
-    description: "<i>Dalla gestione sicura delle Pipeline CI/CD al rispetto di standard e procedure nei processi di build del software.</i>"
-    description_long:
-      "<i><b>Dalla gestione sicura delle Pipeline CI/CD al rispetto di standard e procedure nei processi di build del software.</i></b>
-      <br><br  />
-      Questo workshop di livello avanzato è rivolto a DevOps e DevSecOps che vogliono approfondire la propria conoscenza sulla gestione ed implementazione di Pipeline CI/CD sicure per governare l'intero SSDLC.
-      <br><br  />
-      Partiremo dalla spiegazione e l’approfondimento dei concetti di base delle pipeline CI/CD.
-      Entreremo poi nel vivo dei framework per la gestione della supply chain security, di Tekton e dei security/quality gate da implementare prima della build software.
-      <br><br  />"
-    # video trailer?
-    trailer: false
-    trailer_url: ""
-    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
-    teacher_title: "Docente"
-    teachers:
-      teacher_1:
-        teacher_name: "Simone Ragonesi"
-        teacher_bio: "Con anni di esperienza come ingegnere di sistema e sviluppatore software, Simone ha visto di tutto: bug che ti fanno ridere, crash che ti fanno piangere e righe di codice così eleganti da farti venire una lacrima agli occhi.
-        La missione di Simone è progettare sistemi cloud-native sicuri ed efficienti che farebbero alzare il cappello in segno di rispetto persino ai più noti hacker."
-        pic_filename: "Simone-Ragonesi.png"
-        teacher_role: "DevSecOps Engineer"
-        teacher_org: "SIGHUP"
-      # teacher_2:
-      #   teacher_name: ""
-      #   teacher_bio: ""
-      #   pic_filename: ""
-      #   teacher_role: ""
-      #   teacher_org: ""
-    topics_title: "Programma"
-    topics:
-      - "Introduzione alla sicurezza della Supply Chain"
-      - "Approfondimento sui principali framework per la Supply Chain Security"
-      - "Introduzione alle pipeline di CI/CD"
-      - "Approfondimento delle Cloud native CI/CD con Tekton"
-      - "Spiegazione e implementazione dei security e quality gate"
-    addressees_title: "Partecipando a questo workshop:"
-    addressees_description: "<ul>
-    <li>Avrai una chiara visione della Supply Chain Security;</li>
-    <li>Imparerai a disegnare Pipeline Cloud Native sicure;</li>
-    <li>Conoscerai i principali controlli di qualità e sicurezza.</li>
-    </ul>"
-    requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Il workshop è <b>avanzato e fornisce una conoscenza approfondita del mondo della Supply Chain Security</b>, ed è rivolto a DevOps e DevSecOps engineer.
-    Sono richieste:<ul>
-    <li>Buona conoscenza dell'ambiente Linux/Unix;</li>
-    <li>Buona conoscenza di Kubernetes;</li>
-    <li>Familiarità con pipeline CI/CD.</li>
-    </ul>"
-    useful_info_title: "Informazioni utili"
-    useful_info_description: "Il workshop si svolge in presenza, a Bologna. Non è possibile partecipare da remoto.
-    <br><br  /><i>ATTENZIONE: Il biglietto per il workshop è venduto separatamente da quello per la conferenza. Per partecipare a workshop + conferenza occorre acquistare due biglietti separati.</i>"
-    # CTA
-    cta_title: "Assicurati un posto! I biglietti sono in vendita"
+#   software-security-supply-chain:
+#     ws_id: software-security-supply-chain
+#     is_external: false
+#     page_uri: "workshop/software-security-supply-chain.html"
+#     page_title: "Software Security Supply Chain a prova di Enterprise"
+#     workshop_title: "Software Security Supply Chain a prova di Enterprise"
+#     ticket_url: "https://containerday-2023.eventbrite.com"
+#     ticket_label: "Partecipa al workshop"
+#     location_title: "Dove"
+#     location: "Bologna"
+#     # online_location: "online"
+#     location_name: "Hotel Savoia Regency"
+#     # location_name: "The Internet"
+#     location_contact_phone: ""
+#     location_contact_email: ""
+#     location_contact_url: "https://www.savoia.eu/"
+#     location_address: "Via del Pilastro, 2, 40127 Bologna BO"
+#     location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
+#     location_maps_label: "Mappa"
+#     location_additional_info: ""
+#     # location_additional_info: "add info 2"
+#     whatandwhen_title: "Quando"
+#     whatandwhen_additional_info: "Mercoledì 11 Ottobre 2023, dalle 9:30 alle 17:30. Sono inclusi coffee break e pranzo."
+# #    whatandwhen_additional_info: ""
+#     date: 2023-11-10T09:30+02:00
+#     end_date: 2023-11-10T17:30+02:00
+#     date_text: "Mercoledì 11 Ottobre 2023, 9:30-17:30"
+#     language_title: "Lingua"
+#     language: "italiano"
+#     # language_ext: "Lingua: italiano"
+#     language_additional_info: ""
+#     collab: "Workshop realizzato in collaborazione con <a href='https://sighup.io/'>SIGHUP</a>"
+#     description: "<i>Dalla gestione sicura delle Pipeline CI/CD al rispetto di standard e procedure nei processi di build del software.</i>"
+#     description_long:
+#       "<i><b>Dalla gestione sicura delle Pipeline CI/CD al rispetto di standard e procedure nei processi di build del software.</i></b>
+#       <br><br  />
+#       Questo workshop di livello avanzato è rivolto a DevOps e DevSecOps che vogliono approfondire la propria conoscenza sulla gestione ed implementazione di Pipeline CI/CD sicure per governare l'intero SSDLC.
+#       <br><br  />
+#       Partiremo dalla spiegazione e l’approfondimento dei concetti di base delle pipeline CI/CD.
+#       Entreremo poi nel vivo dei framework per la gestione della supply chain security, di Tekton e dei security/quality gate da implementare prima della build software.
+#       <br><br  />"
+#     # video trailer?
+#     trailer: false
+#     trailer_url: ""
+#     # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+#     teacher_title: "Docente"
+#     teachers:
+#       teacher_1:
+#         teacher_name: "Simone Ragonesi"
+#         teacher_bio: "Con anni di esperienza come ingegnere di sistema e sviluppatore software, Simone ha visto di tutto: bug che ti fanno ridere, crash che ti fanno piangere e righe di codice così eleganti da farti venire una lacrima agli occhi.
+#         La missione di Simone è progettare sistemi cloud-native sicuri ed efficienti che farebbero alzare il cappello in segno di rispetto persino ai più noti hacker."
+#         pic_filename: "Simone-Ragonesi.png"
+#         teacher_role: "DevSecOps Engineer"
+#         teacher_org: "SIGHUP"
+#       # teacher_2:
+#       #   teacher_name: ""
+#       #   teacher_bio: ""
+#       #   pic_filename: ""
+#       #   teacher_role: ""
+#       #   teacher_org: ""
+#     topics_title: "Programma"
+#     topics:
+#       - "Introduzione alla sicurezza della Supply Chain"
+#       - "Approfondimento sui principali framework per la Supply Chain Security"
+#       - "Introduzione alle pipeline di CI/CD"
+#       - "Approfondimento delle Cloud native CI/CD con Tekton"
+#       - "Spiegazione e implementazione dei security e quality gate"
+#     addressees_title: "Partecipando a questo workshop:"
+#     addressees_description: "<ul>
+#     <li>Avrai una chiara visione della Supply Chain Security;</li>
+#     <li>Imparerai a disegnare Pipeline Cloud Native sicure;</li>
+#     <li>Conoscerai i principali controlli di qualità e sicurezza.</li>
+#     </ul>"
+#     requirements_title: "Requisiti di partecipazione"
+#     requirements_description: "Il workshop è <b>avanzato e fornisce una conoscenza approfondita del mondo della Supply Chain Security</b>, ed è rivolto a DevOps e DevSecOps engineer.
+#     Sono richieste:<ul>
+#     <li>Buona conoscenza dell'ambiente Linux/Unix;</li>
+#     <li>Buona conoscenza di Kubernetes;</li>
+#     <li>Familiarità con pipeline CI/CD.</li>
+#     </ul>"
+#     useful_info_title: "Informazioni utili"
+#     useful_info_description: "Il workshop si svolge in presenza, a Bologna. Non è possibile partecipare da remoto.
+#     <br><br  /><i>ATTENZIONE: Il biglietto per il workshop è venduto separatamente da quello per la conferenza. Per partecipare a workshop + conferenza occorre acquistare due biglietti separati.</i>"
+#     # CTA
+#     cta_title: "Assicurati un posto! I biglietti sono in vendita"
 
   kubernetes-security:
     ws_id: kubernetes-security
@@ -177,85 +177,85 @@ workshops:
     # CTA
     cta_title: "Assicurati un posto! I biglietti sono in vendita"
 
-  Cyber-Ranching:
-    ws_id: Cyber-Ranching
-    is_external: false
-    page_uri: "workshop/Cyber-Ranching.html"
-    page_title: "Rancher Prime & Neuvector: Lab Pratico di Cyber-Ranching"
-    workshop_title: "Rancher Prime & Neuvector: Lab Pratico di Cyber-Ranching"
-    ticket_url: "https://containerday-2023.eventbrite.com"
-    ticket_label: "Partecipa al workshop"
-    location_title: "Dove"
-    location: "Bologna"
-    # online_location: "online"
-    location_name: "Hotel Savoia Regency"
-    # location_name: "The Internet"
-    location_contact_phone: ""
-    location_contact_email: ""
-    location_contact_url: "https://www.savoia.eu/"
-    location_address: "Via del Pilastro, 2, 40127 Bologna BO"
-    location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
-    location_maps_label: "Mappa"
-    location_additional_info: ""
-    # location_additional_info: "add info 2"
-    whatandwhen_title: "Quando"
-    whatandwhen_additional_info: "Mercoledì 11 Ottobre 2023, dalle 9:30 alle 17:30. Sono inclusi coffee break e pranzo."
-#    whatandwhen_additional_info: "Giovedì 17 Marzo 2022, dalle 9 alle 18"
-    date: 2023-11-10T09:30+02:00
-    end_date: 2023-11-10T17:30+02:00
-    date_text: "Mercoledì 11 Ottobre 2023, 9:30-17:30"
-    language_title: "Lingua"
-    language: "italiano"
-    # language_ext: "Lingua: italiano"
-    language_additional_info: ""
-    collab: "Workshop realizzato in collaborazione con SUSE"
-    description: "Orientarsi nel selvaggio West DevSecOps: un viaggio alla gestione di Kubernetes e nella sicurezza dei container"
-    description_long:
-      "<b><i>Orientarsi nel selvaggio West DevSecOps: un viaggio alla gestione di Kubernetes e nella sicurezza dei container.</b></i>
-      <br><br  /> In questo laboratorio pratico vedremo come utilizzare gli strumenti necessari per poter pianificare una strategia di sicurezza efficace e all'avanguardia.
-      <br><br  /> Il Lab unisce in un'unica giornata (e per la prima volta da vivo e in italiano) due workshop approfonditi: il Rancher Virtual Rodeo e il SUSE NeuVector Container Security Rodeo.
-      <ul>
-      <li>• Il <b>Rancher Virtual Rodeo </b>, nella prima parte della giornata, offrirà un’introduzione approfondita a container, Kubernetes e Rancher. Cuore del workshop sarà la possibilità di creare un cluster Kubernetes, installare Rancher e sfruttare i suoi strumenti per la gestione.</li>
-      <li>• Il <b>SUSE NeuVector Container Security Rodeo</b> che completa la giornata è il punto di partenza ideale per chi è alle prime armi con NeuVector o con la sicurezza dei container in generale. Approfondiremo le sfide poste alla sicurezza nel mondo cloud-native. Dalla scansione della pipeline end-to-end fino alla runtime security basata su un approccio zero-trust.</li>
-      </ul>
-      <br><br  /> Il workshop fornisce competenze e conoscenze pratiche ed è pensato per DevOps, e per chi lavora nel team IT a tutti i livelli, a cui interessa la gestione e la sicurezza degli ambienti basati su container, orchestrati attraverso Kubernetes."
-    # video trailer?
-    trailer: false
-    trailer_url: ""
-    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
-    teacher_title: "Docenti"
-    teachers:
-      teacher_1:
-        teacher_name: "Giulio Todini"
-        teacher_bio: "Ingegnere, PhD in fisica satellitare. Ha lavorato in ambito data analysis, data optimisation e software development all’interno della digital aviation di Boeing. Negli ultimi anni ha ricoperto ruoli di supporto e consulenza in ambito tecnologico per clienti enterprise e public sector avendo l’opportunità di coordinare team di operations.
-        Oggi come Pre-sales consultant presso SUSE, promuove l’innovazione a livello enterprise incentrata su tecnologie totalmente open-source."
-        pic_filename: "giulio-todini.jpeg"
-        teacher_role: "Presales engineer"
-        teacher_org: "SUSE"
-      teacher_2:
-        teacher_name: "Luca Barzè"
-        teacher_bio: "Luca lavora come Presales Engineer presso SUSE, dove mette a disposizione la sua conoscenza dei sistemi IT, dei servizi cloud, e del mondo cloud-native per supportare il processo di vendita. Con un background in fisica e un forte interesse per le innovazioni tecnologiche, apprezza il fatto di aiutare i clienti e la community a orientarsi tra le esigenze tecnologiche. La sua esperienza spazia da ruoli di consulenza sul cloud, all’architettura dei big data e all’innovazione IT."
-        pic_filename: "luca-barze.png"
-        teacher_role: "Presales engineer"
-        teacher_org: "SUSE"
-    topics_title: "Programma"
-    topics:
-    - "Introduzione a Rancher: Container e Kubernetes; Scalare la gestione di Kubernetes."
-    - "In un ambiente a disposizione dei partecipanti: Installazione Rancher Management Server; Installazione di un cluster downstream; Gestione di un cluster downstream."
-    - "Introduzione a NeuVector: Le sfide della sicurezza dei container; Panoramica delle caratteristiche di NeuVector."
-    - "In un ambiente a disposizione dei partecipanti: Installazione di NeuVector; NeuVector e CVEs - scanning; Runtime Security - imparare il comportamento di un’applicazione e gestirlo, monitoring o protect; DLP, WAFs, e altro."
-    addressees_title: "A chi è rivolto"
-    addressees_description: "Il laboratorio è rivolto a persone con ruoli tecnici e manageriali (architect, devOps, engineer, security manager, IT manager...), che conoscono kubernetes e che vogliono migliorarne l’utilizzo e la gestione con strumenti potenti come Rancher e studiare gli aspetti di cybersicurezza nel mondo container."
-    requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Per partecipare al laboratorio sono necessarie:
-    <ul>
-    <li>Conoscenza base di concetti e termini di containerizzazione e Kubernetes</li>
-    <li>Conoscenza base di metodologie devops</li>
-    <li>Conoscenza base di Linux</li>
-    <li>Interesse per la cybersicurezza</li>
-    </ul>"
-    useful_info_title: "Informazioni utili"
-    useful_info_description: "Il workshop si svolge in presenza, a Bologna. Non è possibile partecipare da remoto.
-    <br><br  /><i>ATTENZIONE: Il biglietto per il workshop è venduto separatamente da quello per la conferenza. Per partecipare a workshop + conferenza occorre acquistare due biglietti separati.</i>"
-    # CTA
-    cta_title: "Assicurati un posto! I biglietti sono in vendita"
+#   Cyber-Ranching:
+#     ws_id: Cyber-Ranching
+#     is_external: false
+#     page_uri: "workshop/Cyber-Ranching.html"
+#     page_title: "Rancher Prime & Neuvector: Lab Pratico di Cyber-Ranching"
+#     workshop_title: "Rancher Prime & Neuvector: Lab Pratico di Cyber-Ranching"
+#     ticket_url: "https://containerday-2023.eventbrite.com"
+#     ticket_label: "Partecipa al workshop"
+#     location_title: "Dove"
+#     location: "Bologna"
+#     # online_location: "online"
+#     location_name: "Hotel Savoia Regency"
+#     # location_name: "The Internet"
+#     location_contact_phone: ""
+#     location_contact_email: ""
+#     location_contact_url: "https://www.savoia.eu/"
+#     location_address: "Via del Pilastro, 2, 40127 Bologna BO"
+#     location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
+#     location_maps_label: "Mappa"
+#     location_additional_info: ""
+#     # location_additional_info: "add info 2"
+#     whatandwhen_title: "Quando"
+#     whatandwhen_additional_info: "Mercoledì 11 Ottobre 2023, dalle 9:30 alle 17:30. Sono inclusi coffee break e pranzo."
+# #    whatandwhen_additional_info: "Giovedì 17 Marzo 2022, dalle 9 alle 18"
+#     date: 2023-11-10T09:30+02:00
+#     end_date: 2023-11-10T17:30+02:00
+#     date_text: "Mercoledì 11 Ottobre 2023, 9:30-17:30"
+#     language_title: "Lingua"
+#     language: "italiano"
+#     # language_ext: "Lingua: italiano"
+#     language_additional_info: ""
+#     collab: "Workshop realizzato in collaborazione con SUSE"
+#     description: "Orientarsi nel selvaggio West DevSecOps: un viaggio alla gestione di Kubernetes e nella sicurezza dei container"
+#     description_long:
+#       "<b><i>Orientarsi nel selvaggio West DevSecOps: un viaggio alla gestione di Kubernetes e nella sicurezza dei container.</b></i>
+#       <br><br  /> In questo laboratorio pratico vedremo come utilizzare gli strumenti necessari per poter pianificare una strategia di sicurezza efficace e all'avanguardia.
+#       <br><br  /> Il Lab unisce in un'unica giornata (e per la prima volta da vivo e in italiano) due workshop approfonditi: il Rancher Virtual Rodeo e il SUSE NeuVector Container Security Rodeo.
+#       <ul>
+#       <li>• Il <b>Rancher Virtual Rodeo </b>, nella prima parte della giornata, offrirà un’introduzione approfondita a container, Kubernetes e Rancher. Cuore del workshop sarà la possibilità di creare un cluster Kubernetes, installare Rancher e sfruttare i suoi strumenti per la gestione.</li>
+#       <li>• Il <b>SUSE NeuVector Container Security Rodeo</b> che completa la giornata è il punto di partenza ideale per chi è alle prime armi con NeuVector o con la sicurezza dei container in generale. Approfondiremo le sfide poste alla sicurezza nel mondo cloud-native. Dalla scansione della pipeline end-to-end fino alla runtime security basata su un approccio zero-trust.</li>
+#       </ul>
+#       <br><br  /> Il workshop fornisce competenze e conoscenze pratiche ed è pensato per DevOps, e per chi lavora nel team IT a tutti i livelli, a cui interessa la gestione e la sicurezza degli ambienti basati su container, orchestrati attraverso Kubernetes."
+#     # video trailer?
+#     trailer: false
+#     trailer_url: ""
+#     # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+#     teacher_title: "Docenti"
+#     teachers:
+#       teacher_1:
+#         teacher_name: "Giulio Todini"
+#         teacher_bio: "Ingegnere, PhD in fisica satellitare. Ha lavorato in ambito data analysis, data optimisation e software development all’interno della digital aviation di Boeing. Negli ultimi anni ha ricoperto ruoli di supporto e consulenza in ambito tecnologico per clienti enterprise e public sector avendo l’opportunità di coordinare team di operations.
+#         Oggi come Pre-sales consultant presso SUSE, promuove l’innovazione a livello enterprise incentrata su tecnologie totalmente open-source."
+#         pic_filename: "giulio-todini.jpeg"
+#         teacher_role: "Presales engineer"
+#         teacher_org: "SUSE"
+#       teacher_2:
+#         teacher_name: "Luca Barzè"
+#         teacher_bio: "Luca lavora come Presales Engineer presso SUSE, dove mette a disposizione la sua conoscenza dei sistemi IT, dei servizi cloud, e del mondo cloud-native per supportare il processo di vendita. Con un background in fisica e un forte interesse per le innovazioni tecnologiche, apprezza il fatto di aiutare i clienti e la community a orientarsi tra le esigenze tecnologiche. La sua esperienza spazia da ruoli di consulenza sul cloud, all’architettura dei big data e all’innovazione IT."
+#         pic_filename: "luca-barze.png"
+#         teacher_role: "Presales engineer"
+#         teacher_org: "SUSE"
+#     topics_title: "Programma"
+#     topics:
+#     - "Introduzione a Rancher: Container e Kubernetes; Scalare la gestione di Kubernetes."
+#     - "In un ambiente a disposizione dei partecipanti: Installazione Rancher Management Server; Installazione di un cluster downstream; Gestione di un cluster downstream."
+#     - "Introduzione a NeuVector: Le sfide della sicurezza dei container; Panoramica delle caratteristiche di NeuVector."
+#     - "In un ambiente a disposizione dei partecipanti: Installazione di NeuVector; NeuVector e CVEs - scanning; Runtime Security - imparare il comportamento di un’applicazione e gestirlo, monitoring o protect; DLP, WAFs, e altro."
+#     addressees_title: "A chi è rivolto"
+#     addressees_description: "Il laboratorio è rivolto a persone con ruoli tecnici e manageriali (architect, devOps, engineer, security manager, IT manager...), che conoscono kubernetes e che vogliono migliorarne l’utilizzo e la gestione con strumenti potenti come Rancher e studiare gli aspetti di cybersicurezza nel mondo container."
+#     requirements_title: "Requisiti di partecipazione"
+#     requirements_description: "Per partecipare al laboratorio sono necessarie:
+#     <ul>
+#     <li>Conoscenza base di concetti e termini di containerizzazione e Kubernetes</li>
+#     <li>Conoscenza base di metodologie devops</li>
+#     <li>Conoscenza base di Linux</li>
+#     <li>Interesse per la cybersicurezza</li>
+#     </ul>"
+#     useful_info_title: "Informazioni utili"
+#     useful_info_description: "Il workshop si svolge in presenza, a Bologna. Non è possibile partecipare da remoto.
+#     <br><br  /><i>ATTENZIONE: Il biglietto per il workshop è venduto separatamente da quello per la conferenza. Per partecipare a workshop + conferenza occorre acquistare due biglietti separati.</i>"
+#     # CTA
+#     cta_title: "Assicurati un posto! I biglietti sono in vendita"

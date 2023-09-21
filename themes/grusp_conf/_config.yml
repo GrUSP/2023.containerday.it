@@ -15,9 +15,9 @@ menu:
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:
-  software-security-supply-chain: Software Security Supply Chain a prova di Enterprise
+  # software-security-supply-chain: Software Security Supply Chain a prova di Enterprise
   kubernetes-security: Kubernetes Security Best Practices
-  Cyber-Ranching: Lab Pratico di Cyber-Ranching
+  # Cyber-Ranching: Lab Pratico di Cyber-Ranching
 
 # welcome submenu
 welcome_submenu:
