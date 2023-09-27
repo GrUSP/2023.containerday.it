@@ -26,10 +26,14 @@ gold:
     site_url: "https://www.sparkfabrik.com/it/"
 silver:
   sponsor1:
+    name: "Biodec"
+    logo_filename: "biodec.svg"
+    site_url: "https://www.biodec.com/it"
+  sponso2:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
-  sponsor2:
+  sponsor3:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
@@ -42,13 +46,12 @@ bronze:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/uses/laptop-stickers"
-# diversity:
-#   sponsor1:
-#     name: "S"
-#     logo_filename: ""
-#     site_url: ""
+diversity:
+  sponsor1:
+    name: "Codice Plastico"
+    logo_filename: "codice-plastico.svg"
+    site_url: "https://codiceplastico.com/"
 
 # Partner configuration
 partner_tags:
-  - css
-  - frontend
+  - containerday
