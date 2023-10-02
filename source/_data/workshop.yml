@@ -143,12 +143,13 @@ workshops:
         pic_filename: "Luca-Bandini.png"
         teacher_role: "DevSecOps Engineer"
         teacher_org: "SIGHUP"
-      # teacher_2:
-      #   teacher_name: ""
-      #   teacher_bio: ""
-      #   pic_filename: ""
-      #   teacher_role: ""
-      #   teacher_org: ""
+      teacher_2:
+        teacher_name: "Simone Ragonesi"
+        teacher_bio: "Con anni di esperienza come ingegnere di sistema e sviluppatore software, Simone ha visto di tutto: bug che ti fanno ridere, crash che ti fanno piangere e righe di codice così eleganti da farti venire una lacrima agli occhi.
+        La missione di Simone è progettare sistemi cloud-native sicuri ed efficienti che farebbero alzare il cappello in segno di rispetto persino ai più noti hacker. "
+        pic_filename: "Simone-Ragonesi.png"
+        teacher_role: "DevSecOps Engineer"
+        teacher_org: "SIGHUP"
     topics_title: "Programma"
     topics:
       - "Introduzione all'architettura di Kubernetes"
