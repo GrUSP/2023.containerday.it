@@ -43,6 +43,10 @@ bronze:
     logo_filename: "blexin.png"
     site_url: "https://blexin.com/"
   sponsor2:
+    name: "Finwave"
+    logo_filename: "finwave.png"
+    site_url: "https://www.finwave.it"
+  sponsor3:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/uses/laptop-stickers"
